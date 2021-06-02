@@ -1,0 +1,1347 @@
+WebCore config: library(F:\OneDrive\Game Development\TEngine\7DRL\te4-web.dll) spawn(F:\OneDrive\Game Development\TEngine\7DRL\cef3spawn.exe)
+Loading WebCore: Failed loading F:\OneDrive\Game Development\TEngine\7DRL\te4-web.dll: The specified module could not be found.
+
+[CPU] Detected 16 CPUs
+OpenAL device available: OpenAL Soft (default OpenAL Soft)
+Available video driver: windows
+Available video driver: dummy
+NO SELFEXE: bootstrapping from CWD
+Creating save thread
+Loading discord rpc: library(F:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll) => Failed loading F:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll: The specified module could not be found.
+
+===top 0
+Booting T-Engine from: F:\OneDrive\Game Development\TEngine\7DRL\7DRL.exe
+SelfExe gave us app directory of:	F:\OneDrive\Game Development\TEngine\7DRL\
+LuaVM:	LuaJIT 2.0.2	x86
+Creating particles thread 0
+Creating particles thread 1
+Creating particles thread 2
+Creating particles thread 3
+Creating particles thread 4
+Creating particles thread 5
+Creating particles thread 6
+Creating particles thread 7
+Creating particles thread 8
+Creating particles thread 9
+Creating particles thread 10
+Creating particles thread 11
+Creating particles thread 12
+LuaVM:	LuaJIT 2.0.2	x86
+Creating particles thread 13
+Creating particles thread 14
+[DO RESIZE] Requested: 800x600 (0, 0); zoom 100%
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+[GAMMA] Getting desktop gamma of 1.000000
+[DO RESIZE] Got: 800x600 (0, 0)
+OpenGL max texture size: 32768
+OpenGL max texture size: 32768
+Upgrading black texture to size 64
+Running lua loader code...
+Reboot using	te4	LATEST	boot	player	false
+[ENGINE LOADER] available from teae: 	te4-1.6.7
+[ENGINE LOADER] found engines	te4={[1]={[1]=1.000000 , [2]=6.000000 , [3]=7.000000 , [4]="te4" , [5]=17.000000 , ["load_teae"]="/engines/te4-1.6.7.teae" , } , } __byname={["te4-1.6.7"]=true , } 
+[ENGINE LOADER] looked in:
+	C:\Users\casio\\T-Engine\4.0
+	F:\OneDrive\Game Development\TEngine\7DRL\\game\thirdparty
+	F:\OneDrive\Game Development\TEngine\7DRL\\game
+[ENGINE LOADER] sorted:	te4	1	6	7
+[ENGINE LOADER] loading engine:	1	6	7	te4
+[ENGINE LOADER] using archived engine:	/engines/te4-1.6.7.teae
+Available resolutions: 2560x1080x32
+Available resolutions: 1920x1080x32
+Available resolutions: 1680x1050x32
+Available resolutions: 1600x1024x32
+Available resolutions: 1600x900x32
+Available resolutions: 1440x900x32
+Available resolutions: 1366x768x32
+Available resolutions: 1360x768x32
+Available resolutions: 1360x765x32
+Available resolutions: 1280x1024x32
+Available resolutions: 1280x960x32
+Available resolutions: 1280x800x32
+Available resolutions: 1280x768x32
+Available resolutions: 1280x720x32
+Available resolutions: 1176x664x32
+Available resolutions: 1152x864x32
+Available resolutions: 1152x648x32
+Available resolutions: 1024x768x32
+Available resolutions: 800x600x32
+Available resolutions: 720x576x32
+Available resolutions: 720x480x32
+Available resolutions: 640x480x32
+0==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+1==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+2==WRITEPATH==allowed== C:\Users\casio\T-Engine\4.0\
+3==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+0==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\
+1==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\engines\
+2==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+3==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+5==READPATH==allowed== C:\Users\casio\T-Engine\4.0\
+6==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+7==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+8==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\engines\te4-1.6.7.teae\
+9==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+10==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\
+[KEYBINDER] Loaded keybinds: move
+[KEYBINDER] Loaded keybinds: hotkeys
+[KEYBINDER] Loaded keybinds: inventory
+[KEYBINDER] Loaded keybinds: actions
+[KEYBINDER] Loaded keybinds: interface
+[KEYBINDER] Loaded keybinds: debug
+Remapping	MOVE_UP	table: 0x0d8a9168
+Remapping	MOVE_RIGHT_DOWN	table: 0x0d8a91f0
+Remapping	MOVE_RIGHT	table: 0x0d8a9240
+Remapping	TOGGLE_NPC_LIST	table: 0x0d8a92f8
+Remapping	MOVE_LEFT	table: 0x0d8a9450
+Remapping	MOVE_DOWN	table: 0x0d8a94a0
+Remapping	MOVE_RIGHT_UP	table: 0x0d8a9290
+Remapping	MOVE_LEFT_DOWN	table: 0x0d8a9c28
+Remapping	MOVE_LEFT_UP	table: 0x0d8a94f0
+setResolution: switching resolution to	1280x717 Windowed	1280	717	false	false	(forced)
+Setting resolution to 1280x717 (windowed, with borders)
+[DO RESIZE] Requested: 1280x717 (0, 0); zoom 100%
+[DO RESIZE] Got: 1280x717 (0, 0)
+OpenGL max texture size: 32768
+setResolution: performing onResolutionChange...
+
+onResolutionChange: resolution changed to 	1280	717	from	nil	nil
+onResolutionChange: no game yet!
+Creating profile thread
+[ONLINE PROFILE] fun facts	nil
+[PROFILE] mounted 	online	on /current-profile
+LuaVM:	LuaJIT 2.0.2	x86
+TE4Online starting...
+[PROFILE] unmounted 	online	from /current-profile
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[ENGINE] Switching to turn based
+[SAVEFILE PIPE] force waiting
+Creating module	7DRL	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for MonasteryRL-0.0.1 using engine te4-1.6.7
+Creating module	boot	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for boot-1.0.0 using engine te4-1.6.7
+* Module: boot
+ ** 1.0.0
+* Module: MonasteryRL
+ ** 0.0.1
+After fs.reset
+[1] = {
+  [path] = F:\OneDrive\Game Development\TEngine\7DRL\\game\engines\te4-1.6.7.teae
+}
+[MODULE] booting module version	boot-1.0.0
+[ENGINE] Switching to turn based
+Loading savefile 	/save//
+Loading savefile 	/save/player/
+Make wait background texture 2 : 0x1083441152 (0, 1082550272)
+Upgrading black texture to size 262144
+Upgrading black texture to size 4194304
+table: 0x0d8c13c0	normal
+Using cached font	/data/font/Vera.ttf	12
+table: 0x0d8c1450	normal
+Using cached font	/data/font/Vera.ttf	12
+Post-processing hooks.
+[MODULE] All hashes validation: 	nil	no online profile active
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+[MODULE LOADER] loading module	T-Engine4 Main Menu 	[mod.load]	::	nil	nil
+[GAMMA] Not setting gamma correction yet, no fullscreen shader found	1.2
+[ENGINE] Switching to turn based
+[GAMMA] Not setting gamma correction yet, no fullscreen shader found	1.2
+Loading savefile 	/save/player/
+[SHADER] Loading from /data/gfx/shaders/full_fbo.lua
+[SHADER] Loaded shader with totalname	full_fbo[]
+New GL Shader program 1
+New GL Shader 2 of type 35632
+[SHADER] created fragment shader from /data/gfx/shaders/full_fbo.frag
+*p 1: Uniform: 0: 1406 gamma
+*p 1: Uniform: 1: 8B5E sceneBuffer
+[GAMMA] Setting gamma correction using fullscreen shader	1.2
+[MUSIC] loading	whatever.ogg	Error loading sound "/data/music/whatever.ogg": The system cannot find the file specified.
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[MODULE LOADER] done loading module	T-Engine4 Main Menu 
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+Wait finished, counted 2, 123 ticks
+[ENGINE] Setting requested FPS to 2 (500 ms)
+[PROFILE] Thread connecting to profiles.te4.org on ports 	2257	2258
+[PROFILE] Thread connected to profiles.te4.org
+[ONLINE PROFILE] reconnecting to channels
+[PROFILE THREAD] batching CSETs
+[PROFILE THREAD] flushing CSETs
+[PROFILE THREAD] flushing CSETs ignored, empty dataset
+[PlayerProfile] eventConnected
+Server latency	118
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[SOUND] loading from	/data/sound/ui/subtle_button_sound.ogg	:=:	sound "/data/sound/ui/subtle_button_sound.ogg" : <static>
+Creating module	7DRL	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for MonasteryRL-0.0.1 using engine te4-1.6.7
+Creating module	boot	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for boot-1.0.0 using engine te4-1.6.7
+* Module: boot
+ ** 1.0.0
+* Module: MonasteryRL
+ ** 0.0.1
+After fs.reset
+[1] = {
+  [path] = F:\OneDrive\Game Development\TEngine\7DRL\game\modules\boot/data/
+  [mount] = data/
+}
+[2] = {
+  [path] = F:\OneDrive\Game Development\TEngine\7DRL\\game\engines\te4-1.6.7.teae
+}
+Using cached font	/data/font/DroidSans-Bold.ttf	16
+Using cached font	/data/font/DroidSans-Bold.ttf	16
+Using cached font	/data/font/DroidSans-Bold.ttf	16
+[ENGINE] Switching to turn based
+[SAVEFILE PIPE] force waiting
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[MAIN] rebooting lua state: 	te4	1.6.7	MonasteryRL-0.0.1	Renault	true
+[ENGINE] Switching to turn based
+Deleting shader 1 (is clone 0)
+NO SELFEXE: bootstrapping from CWD
+Loading discord rpc: library(F:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll) => Failed loading F:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll: The specified module could not be found.
+
+===top 0
+Booting T-Engine from: F:\OneDrive\Game Development\TEngine\7DRL\7DRL.exe
+SelfExe gave us app directory of:	F:\OneDrive\Game Development\TEngine\7DRL\
+LuaVM:	LuaJIT 2.0.2	x86
+Destroying particle thread 0 (waiting for mutex)
+Destroying particle thread 0
+Destroying particle thread 0 (waiting for thread 3652a88)
+Cleaning up particle thread 0
+Cleaned up particle thread 0
+Destroyed particle thread 0 (0)
+Destroying particle thread 1 (waiting for mutex)
+Destroying particle thread 1
+Destroying particle thread 1 (waiting for thread 36531f0)
+Cleaning up particle thread 1
+Cleaned up particle thread 1
+Destroyed particle thread 1 (0)
+Destroying particle thread 2 (waiting for mutex)
+Destroying particle thread 2
+Destroying particle thread 2 (waiting for thread 3653738)
+Cleaning up particle thread 2
+Cleaned up particle thread 2
+Destroyed particle thread 2 (0)
+Destroying particle thread 3 (waiting for mutex)
+Destroying particle thread 3
+Destroying particle thread 3 (waiting for thread 3653d60)
+Cleaning up particle thread 3
+Cleaned up particle thread 3
+Destroyed particle thread 3 (0)
+Destroying particle thread 4 (waiting for mutex)
+Destroying particle thread 4
+Destroying particle thread 4 (waiting for thread 36554d0)
+Cleaning up particle thread 4
+Cleaned up particle thread 4
+Destroyed particle thread 4 (0)
+Destroying particle thread 5 (waiting for mutex)
+Destroying particle thread 5
+Destroying particle thread 5 (waiting for thread 3655a18)
+Cleaning up particle thread 5
+Cleaned up particle thread 5
+Destroyed particle thread 5 (0)
+Destroying particle thread 6 (waiting for mutex)
+Destroying particle thread 6
+Destroying particle thread 6 (waiting for thread 3655f60)
+Cleaning up particle thread 6
+Cleaned up particle thread 6
+Destroyed particle thread 6 (0)
+Destroying particle thread 7 (waiting for mutex)
+Destroying particle thread 7
+Destroying particle thread 7 (waiting for thread 36564a8)
+Cleaning up particle thread 7
+Cleaned up particle thread 7
+Destroyed particle thread 7 (0)
+Destroying particle thread 8 (waiting for mutex)
+Destroying particle thread 8
+Destroying particle thread 8 (waiting for thread 36569f0)
+Cleaning up particle thread 8
+Cleaned up particle thread 8
+Destroyed particle thread 8 (0)
+Destroying particle thread 9 (waiting for mutex)
+Destroying particle thread 9
+Destroying particle thread 9 (waiting for thread 3658d20)
+Cleaning up particle thread 9
+Cleaned up particle thread 9
+Destroyed particle thread 9 (0)
+Destroying particle thread 10 (waiting for mutex)
+Destroying particle thread 10
+Destroying particle thread 10 (waiting for thread 3659450)
+Cleaning up particle thread 10
+Cleaned up particle thread 10
+Destroyed particle thread 10 (0)
+Destroying particle thread 11 (waiting for mutex)
+Destroying particle thread 11
+Destroying particle thread 11 (waiting for thread 3659778)
+Cleaning up particle thread 11
+Cleaned up particle thread 11
+Destroyed particle thread 11 (0)
+Destroying particle thread 12 (waiting for mutex)
+Destroying particle thread 12
+Destroying particle thread 12 (waiting for thread 3659aa0)
+Cleaning up particle thread 12
+Cleaned up particle thread 12
+Destroyed particle thread 12 (0)
+Destroying particle thread 13 (waiting for mutex)
+Destroying particle thread 13
+Destroying particle thread 13 (waiting for thread 3659dc8)
+Cleaning up particle thread 13
+Cleaned up particle thread 13
+Destroyed particle thread 13 (0)
+Destroying particle thread 14 (waiting for mutex)
+Destroying particle thread 14
+Destroying particle thread 14 (waiting for thread 365b408)
+Cleaning up particle thread 14
+Cleaned up particle thread 14
+Destroyed particle thread 14 (0)
+Creating particles thread 0
+Creating particles thread 1
+Creating particles thread 2
+Creating particles thread 3
+Creating particles thread 4
+Creating particles thread 5
+Creating particles thread 6
+Creating particles thread 7
+Creating particles thread 8
+Creating particles thread 9
+Creating particles thread 10
+Creating particles thread 11
+Creating particles thread 12
+Creating particles thread 13
+Creating particles thread 14
+LuaVM:	LuaJIT 2.0.2	x86
+Running lua loader code...
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+===	
+Reboot using	te4	1.6.7	MonasteryRL-0.0.1	Renault	true
+[ENGINE LOADER] available from teae: 	te4-1.6.7
+[ENGINE LOADER] found engines	te4={[1]={[1]=1.000000 , [2]=6.000000 , [3]=7.000000 , [4]="te4" , [5]=17.000000 , ["load_teae"]="/engines/te4-1.6.7.teae" , } , } __byname={["te4-1.6.7"]=true , } 
+[ENGINE LOADER] looked in:
+	C:\Users\casio\\T-Engine\4.0
+	F:\OneDrive\Game Development\TEngine\7DRL\\game\thirdparty
+	F:\OneDrive\Game Development\TEngine\7DRL\\game
+[ENGINE LOADER] loading engine:	1	6	7	te4
+[ENGINE LOADER] using archived engine:	/engines/te4-1.6.7.teae
+Available resolutions: 2560x1080x32
+Available resolutions: 1920x1080x32
+Available resolutions: 1680x1050x32
+Available resolutions: 1600x1024x32
+Available resolutions: 1600x900x32
+Available resolutions: 1440x900x32
+Available resolutions: 1366x768x32
+Available resolutions: 1360x768x32
+Available resolutions: 1360x765x32
+Available resolutions: 1280x1024x32
+Available resolutions: 1280x960x32
+Available resolutions: 1280x800x32
+Available resolutions: 1280x768x32
+Available resolutions: 1280x720x32
+Available resolutions: 1176x664x32
+Available resolutions: 1152x864x32
+Available resolutions: 1152x648x32
+Available resolutions: 1024x768x32
+Available resolutions: 800x600x32
+Available resolutions: 720x576x32
+Available resolutions: 720x480x32
+Available resolutions: 640x480x32
+0==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+1==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+2==WRITEPATH==allowed== C:\Users\casio\T-Engine\4.0\
+3==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+0==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\
+1==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\engines\
+2==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+3==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+5==READPATH==allowed== C:\Users\casio\T-Engine\4.0\
+6==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+7==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+8==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\engines\te4-1.6.7.teae\
+9==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+10==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\
+[KEYBINDER] Loaded keybinds: move
+[KEYBINDER] Loaded keybinds: hotkeys
+[KEYBINDER] Loaded keybinds: inventory
+[KEYBINDER] Loaded keybinds: actions
+[KEYBINDER] Loaded keybinds: interface
+[KEYBINDER] Loaded keybinds: debug
+Remapping	MOVE_UP	table: 0x06f8daa0
+Remapping	MOVE_RIGHT_DOWN	table: 0x06fb6078
+Remapping	MOVE_RIGHT	table: 0x06fb60c8
+Remapping	TOGGLE_NPC_LIST	table: 0x06f90270
+Remapping	MOVE_LEFT	table: 0x06fb5848
+Remapping	MOVE_DOWN	table: 0x06f81e60
+Remapping	MOVE_RIGHT_UP	table: 0x06fb59f8
+Remapping	MOVE_LEFT_DOWN	table: 0x06fb5a48
+Remapping	MOVE_LEFT_UP	table: 0x06fb59a8
+setResolution: switching resolution to	1280x717 Windowed	1280	717	false	false	(forced)
+Setting resolution to 1280x717 (windowed, with borders)
+[DO RESIZE] Requested: 1280x717 (0, 0); zoom 100%
+[DO RESIZE] Got: 1280x717 (0, 0)
+OpenGL max texture size: 32768
+setResolution: performing onResolutionChange...
+
+onResolutionChange: resolution changed to 	1280	717	from	nil	nil
+onResolutionChange: no game yet!
+[ONLINE PROFILE] fun facts	nil
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[ENGINE] Switching to turn based
+[SAVEFILE PIPE] force waiting
+Creating module	7DRL	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for MonasteryRL-0.0.1 using engine te4-1.6.7
+Creating module	boot	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for boot-1.0.0 using engine te4-1.6.7
+* Module: boot
+ ** 1.0.0
+* Module: MonasteryRL
+ ** 0.0.1
+After fs.reset
+[1] = {
+  [path] = F:\OneDrive\Game Development\TEngine\7DRL\\game\engines\te4-1.6.7.teae
+}
+[MODULE] booting module version	MonasteryRL-0.0.1
+[ENGINE] Switching to turn based
+Loading savefile 	/save//
+Loading savefile 	/save/renault/
+Make wait background texture 2 : 0x1083441152 (0, 1082550272)
+table: 0x06fd0ae8	normal
+table: 0x06fd0b78	normal
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+[MODULE LOADER] module MD5	0a8d797537f523cbc0454902f47e5715	computed in 	278
+Post-processing hooks.
+[MODULE] All hashes validation: 	nil	no online profile active
+[PROFILE] mounted 	offline	on /current-profile
+[PROFILE] unmounted 	offline	from /current-profile
+[PROFILE THREAD] batching CSETs
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+module 'mod.dialogs.ShowPickupFloor' not found:
+	no field package.preload['mod.dialogs.ShowPickupFloor']
+	no file '/mod/dialogs/ShowPickupFloor.lua'
+stack traceback:
+	/engine/utils.lua:2955: in function </engine/utils.lua:2954>
+	[C]: at 0x004b5d90
+	[C]: in function 'xpcall'
+	/engine/utils.lua:2954: in function 'require_first'
+	/engine/interface/ActorInventory.lua:25: in main chunk
+	[C]: in function 'require'
+	/mod/load.lua:30: in main chunk
+	[C]: in function 'require'
+	/engine/Module.lua:160: in function 'load'
+	/engine/Module.lua:1046: in function 'instanciate'
+	/engine/utils.lua:2782: in function 'showMainMenu'
+	/engine/init.lua:199: in main chunk
+	[C]: in function 'dofile'
+	/loader/init.lua:217: in main chunk
+[INVENTORY] define slot	1	In inventory
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+[ActorResource] Defined Resource:	power
+[INVENTORY] define slot	2	Main Hand
+[INVENTORY] define slot	3	Off Hand
+[INVENTORY] define slot	4	Armor
+[INVENTORY] define slot	5	Combat Book
+[MODULE LOADER] loading module	Monastery Roguelike	[mod.load]	::	nil	nil
+[GAMMA] Setting gamma correction using SDL	1.2
+[MAP] Reseting tiles caches
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+[GAMMA] Setting gamma correction using SDL	1.2
+[QUICK HOTKEYS] Loading quick hotkey settings for module "MonasteryRL" from /save/quick_hotkeys...
+[QUICK HOTKEYS] Successfully loaded quick hotkey settings.
+Loading savefile 	/save/renault/
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/font/DroidSansMono.ttf	10
+Using cached font	/data/font/DroidSans.ttf	12
+Using cached font	/data/font/DroidSans.ttf	12
+[LOG]	Welcome to #00FF00#the template module!
+[LOG]	 
+[LOG]	The Monastery before you has been infested by the Cult of Ygothr. Hunt and eradacate the heretics.
+[DISPLAY MODE] 32x32 ASCII/background
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+[BIRTHER] selecting type	base
+[BIRTHER] checking allowance for 	base
+[BIRTHER] selecting type	role
+[BIRTHER] checking allowance for 	Generic Class
+[BIRTHER] Applying descriptor base.base
+[BIRTHER] Applying descriptor role.Generic Class
+Loading savefile 	/save/renault/
+Loading entities file from file	/data/zones/monastery/npcs.lua
+Loading entities file from file	/data/general/npcs/cultists.lua
+Loading entities file from file	/data/zones/monastery/grids.lua
+Loading entities file from file	/data/general/grids/basic.lua
+Loading entities file from file	/data/zones/monastery/objects.lua
+Loading entities file from file	/data/general/objects/str_weapons.lua
+Loading entities file from file	/data/general/objects/dex_weapons.lua
+Loading entities file from file	/data/general/objects/armor.lua
+Loading entities file from file	/data/general/objects/shields.lua
+Loading entities file from file	/data/zones/monastery/traps.lua
+Initiated zone	The Monastery	with base_level	1
+Loading zone persistance level	monastery	1
+Creating level	monastery	1
+[Zone:newLevel]	monastery	beginning level generation, count:	1
+C Map size 67:34 :: 2278
+C Map seens texture: 119 (65x40)
+Loading entities file from file	/data/general/egos/cultist_types.lua
+Loading entities file from file	/data/general/egos/basic.lua
+Loading entities file from file	/data/general/egos/armor_egos.lua
+Static generator using file	/data/maps/cathedral.lua
+[STATIC MAP] size	55	26	rotate:	default
+[LOG]	Back at the monastery.
+[PLAYER BIRTH] resolve...
+Equipment resolver for	Renault
+Equipment resolver	Renault	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Renault	nil	nil
+Zone made us an equipment according to filter!	Holy Paladins Plate
+Autorequire stats
+str	1
+fight: 	Holy Paladins Plate	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Renault	nil	nil
+Zone made us an equipment according to filter!	Round Shield
+Autorequire stats
+str	1
+fight: 	Round Shield	Longsword	::	nil	OFF_HAND
+fight: 	Round Shield	Holy Paladins Plate	::	nil	OFF_HAND
+[PLAYER BIRTH] resolved!
+[BIRTHER] Finished!
+[DISPLAY MODE] 32x32 ASCII/background
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+C Map size 67:34 :: 2278
+C Map seens texture: 130 (65x36)
+[LOG]	#LIGHT_RED#Online profile disabled(switching to offline profile) due to no online profile active.
+[MODULE LOADER] done loading module	Monastery Roguelike
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+Wait finished, counted 416, 575 ticks
+C Map minimap texture: 2 (50x50; 64x64)
+[PROFILE THREAD] flushing CSETs
+[PROFILE THREAD] flushing CSETs ignored, empty dataset
+[ENGINE] Setting requested FPS to 2 (500 ms)
+Server latency	121
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[LOG]	As you step forth into the Monastery, you can smell the infestation taking root
+[COROUTINE] registering	savefilepipe	thread: 0x0e096928
+[ZONE] Closed level map	1
+[ZONE] Left zone	The Monastery
+[SAVEFILE PIPE] looking for savefile to recover in the memory pipe	zone-monastery.teaz	?=?	zone-north_belltower.teaz
+Loading savefile 	/save/renault/
+Loading entities file from file	/data/zones/north_belltower/npcs.lua
+Loading entities file from memory	/data/general/npcs/cultists.lua
+Loading entities file from file	/data/general/npcs/undead.lua
+Loading entities file from file	/data/zones/north_belltower/grids.lua
+Loading entities file from memory	/data/general/grids/basic.lua
+Loading entities file from file	/data/zones/north_belltower/objects.lua
+Loading entities file from memory	/data/general/objects/str_weapons.lua
+Loading entities file from memory	/data/general/objects/dex_weapons.lua
+Loading entities file from file	/data/general/objects/cultist_weapons.lua
+Loading entities file from memory	/data/general/objects/armor.lua
+Loading entities file from memory	/data/general/objects/shields.lua
+Loading entities file from file	/data/general/objects/book_pages.lua
+Loading entities file from file	/data/zones/north_belltower/traps.lua
+Initiated zone	The Northern Belfry	with base_level	1
+Creating level	north_belltower	1
+Make wait background texture 56 : 0x1083441152 (0, 1082550272)
+[Zone:newLevel]	north_belltower	beginning level generation, count:	1
+C Map size 67:34 :: 2278
+C Map seens texture: 145 (45x45)
+Loading entities file from memory	/data/general/egos/cultist_types.lua
+Loading entities file from memory	/data/general/egos/basic.lua
+Loading entities file from file	/data/general/egos/cultist_egos.lua
+Loading entities file from memory	/data/general/egos/armor_egos.lua
+Loading entities file from file	/data/general/egos/book_egos.lua
+loaded room generator	simple	function: 0x0abdff88
+[RoomsLoader:init] loaded room:	simple	function: 0x0abdff88
+loaded room	pilar	10	5
+[RoomsLoader:init] loaded room:	pilar	table: 0x0e0c5fe0
+[roomGen] generated room	pilar
+placed room	pilar	at	20	14	with center	24	16
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple7x10
+placed room	simple7x10	at	10	6	with center	13	10
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple7x8
+placed room	simple7x8	at	12	21	with center	15	24
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple12x10
+placed room	simple12x10	at	18	22	with center	23	26
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple6x10
+placed room	simple6x10	at	26	1	with center	28	5
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple12x7
+placed room	simple12x7	at	1	21	with center	6	24
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple11x6
+placed room	simple11x6	at	1	16	with center	6	18
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple7x8
+placed room	simple7x8	at	2	1	with center	5	4
+[roomGen] generated room	pilar
+placed room	pilar	at	13	2	with center	17	4
+[roomGen] generated room	pilar
+placed room	pilar	at	1	10	with center	5	12
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Holy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Holy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Worn Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Arcane Longsword +1 
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Unholy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Unholy Tattered Rags	Arcane Longsword +1 	::	nil	ARMOR_SLOT
+Equipment resolver for	Blessed Ygothr Cultist
+Equipment resolver	Blessed Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Blessed Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Holy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Holy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Blessed Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Clean Page 479
+Drops resolver	Blessed Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Blessed Ygothr Cultist
+Equipment resolver	Blessed Ygothr Cultist	blessed_cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+fight: 	Longsword	Longsword	::	nil	MAIN_HAND
+fight: 	Longsword	Holy Tattered Rags	::	nil	MAIN_HAND
+fight: 	Longsword	Holy Tattered Rags	::	nil	MAIN_HAND
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Unholy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Unholy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Clean Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Clean Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Arcane Tattered Rags
+Autorequire stats
+str	1
+fight: 	Arcane Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Clean Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Worn Page 479
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Ygothr Priest
+Equipment resolver	Ygothr Priest	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Priest	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Priest	page	combat
+Zone made us an equipment according to filter!	Torn Page 479
+Drops resolver	Ygothr Priest	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+[LOG]	You enter the Northern Belfrey.
+[Zone:newLevel] Level unconnected, no way from entrance	17	34	to exit	15	4
+[Zone:newLevel]	north_belltower	beginning level generation, count:	2
+C Map size 67:34 :: 2278
+C Map seens texture: 154 (45x45)
+Loading entities file from memory	/data/general/egos/cultist_types.lua
+Loading entities file from memory	/data/general/egos/basic.lua
+Loading entities file from memory	/data/general/egos/cultist_egos.lua
+Loading entities file from memory	/data/general/egos/armor_egos.lua
+Loading entities file from memory	/data/general/egos/book_egos.lua
+[RoomsLoader:init] loaded room:	simple	function: 0x0abdff88
+[RoomsLoader:init] loaded room:	pilar	table: 0x0e0c5fe0
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple10x5
+placed room	simple10x5	at	20	24	with center	24	26
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple6x9
+placed room	simple6x9	at	28	4	with center	30	8
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple8x10
+placed room	simple8x10	at	6	20	with center	9	24
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple10x10
+placed room	simple10x10	at	2	11	with center	6	15
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple6x9
+placed room	simple6x9	at	16	6	with center	18	10
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple12x6
+placed room	simple12x6	at	16	17	with center	21	19
+[roomGen] generated room	pilar
+placed room	pilar	at	1	3	with center	5	5
+[roomGen] generated room	pilar
+placed room	pilar	at	20	29	with center	24	31
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple5x10
+placed room	simple5x10	at	22	3	with center	24	7
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple7x10
+placed room	simple7x10	at	14	23	with center	17	27
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Torn Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Torn Page 479
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Torn Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Ygothr Priest
+Equipment resolver	Ygothr Priest	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Priest	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Priest	page	combat
+Zone made us an equipment according to filter!	Worn Page 479
+Drops resolver	Ygothr Priest	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Holy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Holy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Worn Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Worn Page 479
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Unholy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Unholy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Worn Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Unholy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Unholy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Arcane Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Arcane Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Ygothr Priest
+Equipment resolver	Ygothr Priest	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Priest	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Priest	page	combat
+Zone made us an equipment according to filter!	Clean Page 479
+Drops resolver	Ygothr Priest	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Arcane Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Arcane Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Holy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Holy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Torn Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Clean Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Clean Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Worn Page 479
+[Zone:newLevel] Level unconnected, no way from entrance	11	5	to exit	24	30
+[Zone:newLevel]	north_belltower	beginning level generation, count:	3
+C Map size 67:34 :: 2278
+C Map seens texture: 145 (45x45)
+Loading entities file from memory	/data/general/egos/cultist_types.lua
+Loading entities file from memory	/data/general/egos/basic.lua
+Loading entities file from memory	/data/general/egos/cultist_egos.lua
+Loading entities file from memory	/data/general/egos/armor_egos.lua
+Loading entities file from memory	/data/general/egos/book_egos.lua
+[RoomsLoader:init] loaded room:	simple	function: 0x0abdff88
+[RoomsLoader:init] loaded room:	pilar	table: 0x0e0c5fe0
+[roomGen] generated room	pilar
+placed room	pilar	at	14	11	with center	18	13
+[roomGen] generated room	pilar
+placed room	pilar	at	13	17	with center	17	19
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple8x11
+placed room	simple8x11	at	6	4	with center	9	9
+[roomGen] generated room	pilar
+placed room	pilar	at	4	23	with center	8	25
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple10x7
+placed room	simple10x7	at	23	13	with center	27	16
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple11x9
+placed room	simple11x9	at	13	3	with center	18	7
+[roomGen] generated room	pilar
+placed room	pilar	at	22	28	with center	26	30
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple11x7
+placed room	simple11x7	at	23	19	with center	28	22
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple7x10
+placed room	simple7x10	at	26	4	with center	29	8
+[roomGen] room generator	function: 0x0abdff88	is making a room
+[roomGen] generated room	simple8x5
+placed room	simple8x5	at	3	17	with center	6	19
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Clean Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Ygothr Cultist Acolyte
+Equipment resolver	Ygothr Cultist Acolyte	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist Acolyte	nil	nil
+Zone made us an equipment according to filter!	Arcane Tattered Rags
+Autorequire stats
+str	1
+fight: 	Arcane Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist Acolyte	page	combat
+Zone made us an equipment according to filter!	Torn Page 479
+Drops resolver	Ygothr Cultist Acolyte	page	combat	nil
+Zone made us an drop according to filter!	Clean Page 479
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Holy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Holy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Worn Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Worn Page 479
+Equipment resolver for	Ygothr Priest
+Equipment resolver	Ygothr Priest	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Priest	nil	nil
+Zone made us an equipment according to filter!	Arcane Tattered Rags
+Autorequire stats
+str	1
+fight: 	Arcane Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Priest	page	combat
+Zone made us an equipment according to filter!	Worn Page 479
+Drops resolver	Ygothr Priest	page	combat	nil
+Zone made us an drop according to filter!	Torn Page 479
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	combat
+Zone made us an equipment according to filter!	Worn Page 479
+Drops resolver	Ygothr Cultist	page	combat	nil
+Zone made us an drop according to filter!	Torn Page 479
+Wait finished, counted 1220, 204 ticks
+C Map minimap texture: 33 (50x50; 64x64)
+[SAVEFILE PIPE] new save running in the pipe:	Renault	zone	::	zone-monastery.teaz	::	table: 0x0abab558	=>	table: 0x080617c8	(63)
+Loading savefile 	/save/renault/
+[SAVEFILE PIPE] unleashing save thread
+Saving zipname /save/renault/zone-monastery.teaz.tmp
+Saved zipname /save/renault/zone-monastery.teaz.tmp
+[SAVEFILE PIPE] Checking save	Renault	zone	/save/renault/zone-monastery.teaz.tmp
+Loading savefile 	/save/renault/
+[SAVEFILE] checked validity of type	zone	 => 	all fine
+[LOG]	Saving done.
+[SAVEFILE PIPE] on end	saveZone_md5
+[SAVEFILE PIPE] saving took 0 seconds
+[COROUTINE] dead	savefilepipe
+[LOG]	#RED#Ygothr Priest#LAST# hits Renault for #LIGHT_SLATE#1.38 physical damage#LAST#.
+[LOG]	#RED#Ygothr Cultist#LAST# hits Renault for #LIGHT_SLATE#1.85 physical damage#LAST#.
+[LOG]	#RED#Ygothr Priest#LAST# hits Renault for #LIGHT_SLATE#1.38 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#RED#Ygothr Cultist#LAST# hits Renault for #LIGHT_SLATE#1.85 physical damage#LAST#.
+[LOG]	#RED#Ygothr Priest#LAST# hits Renault for #LIGHT_SLATE#1.38 physical damage#LAST#.
+[ENGINE] Setting requested FPS to 2 (500 ms)
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[ENGINE] Setting requested FPS to 2 (500 ms)
+Server latency	124
+[ENGINE] Setting requested FPS to 30 (33 ms)
+Loading tile	border_7.png
+Loading tile	border_9.png
+Loading tile	border_1.png
+Loading tile	border_3.png
+Loading tile	border_8.png
+Loading tile	border_4.png
+[COROUTINE] registering	savefilepipe	thread: 0x0ab7f260
+[ENGINE] Switching to turn based
+[SAVEFILE PIPE] force waiting
+Make wait background texture 118 : 0x1083441152 (0, 1082550272)
+[SAVEFILE PIPE] new save running in the pipe:	Renault	game	::	game.teag	::	table: 0x0702d030	=>	table: 0x0ea27050	(165)
+Loading savefile 	/save/renault/
+[SAVEFILE PIPE] unleashing save thread
+Saving zipname /save/renault/game.teag.tmp
+Saved zipname /save/renault/game.teag.tmp
+[SAVEFILE PIPE] Checking save	Renault	game	/save/renault/game.teag.tmp
+Loading savefile 	/save/renault/
+[SAVEFILE] checked validity of type	game	 => 	all fine
+[LOG]	Saving done.
+[SAVEFILE PIPE] on end	saveGame_md5
+[SAVEFILE PIPE] saving took 0 seconds
+Wait finished, counted 199, 118 ticks
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[MAIN] rebooting lua state: 	nil	nil	nil	nil	nil
+stack traceback:
+[COROUTINE] error	cannot resume dead coroutine
+[COROUTINE] dead	savefilepipe
+[ENGINE] Switching to turn based
+NO SELFEXE: bootstrapping from CWD
+Loading discord rpc: library(F:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll) => Failed loading F:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll: The specified module could not be found.
+
+===top 0
+Booting T-Engine from: F:\OneDrive\Game Development\TEngine\7DRL\7DRL.exe
+SelfExe gave us app directory of:	F:\OneDrive\Game Development\TEngine\7DRL\
+LuaVM:	LuaJIT 2.0.2	x86
+Destroying particle thread 0 (waiting for mutex)
+Destroying particle thread 0
+Destroying particle thread 0 (waiting for thread 365aa90)
+Cleaning up particle thread 0
+Cleaned up particle thread 0
+Destroyed particle thread 0 (0)
+Destroying particle thread 1 (waiting for mutex)
+Destroying particle thread 1
+Destroying particle thread 1 (waiting for thread 365a440)
+Cleaning up particle thread 1
+Cleaned up particle thread 1
+Destroyed particle thread 1 (0)
+Destroying particle thread 2 (waiting for mutex)
+Destroying particle thread 2
+Destroying particle thread 2 (waiting for thread 365a118)
+Cleaning up particle thread 2
+Cleaned up particle thread 2
+Destroyed particle thread 2 (0)
+Destroying particle thread 3 (waiting for mutex)
+Destroying particle thread 3
+Destroying particle thread 3 (waiting for thread 365adb8)
+Cleaning up particle thread 3
+Cleaned up particle thread 3
+Destroyed particle thread 3 (0)
+Destroying particle thread 4 (waiting for mutex)
+Destroying particle thread 4
+Destroying particle thread 4 (waiting for thread 365ba58)
+Cleaning up particle thread 4
+Cleaned up particle thread 4
+Destroyed particle thread 4 (0)
+Destroying particle thread 5 (waiting for mutex)
+Destroying particle thread 5
+Destroying particle thread 5 (waiting for thread 365a768)
+Cleaning up particle thread 5
+Cleaned up particle thread 5
+Destroyed particle thread 5 (0)
+Destroying particle thread 6 (waiting for mutex)
+Destroying particle thread 6
+Destroying particle thread 6 (waiting for thread 365b408)
+Cleaning up particle thread 6
+Cleaned up particle thread 6
+Destroyed particle thread 6 (0)
+Destroying particle thread 7 (waiting for mutex)
+Destroying particle thread 7
+Destroying particle thread 7 (waiting for thread 365bd80)
+Cleaning up particle thread 7
+Cleaned up particle thread 7
+Destroyed particle thread 7 (0)
+Destroying particle thread 8 (waiting for mutex)
+Destroying particle thread 8
+Destroying particle thread 8 (waiting for thread 365b0e0)
+Cleaning up particle thread 8
+Cleaned up particle thread 8
+Destroyed particle thread 8 (0)
+Destroying particle thread 9 (waiting for mutex)
+Destroying particle thread 9
+Destroying particle thread 9 (waiting for thread 3670348)
+Cleaning up particle thread 9
+Cleaned up particle thread 9
+Destroyed particle thread 9 (0)
+Destroying particle thread 10 (waiting for mutex)
+Destroying particle thread 10
+Destroying particle thread 10 (waiting for thread 366dd68)
+Cleaning up particle thread 10
+Cleaned up particle thread 10
+Destroyed particle thread 10 (0)
+Destroying particle thread 11 (waiting for mutex)
+Destroying particle thread 11
+Destroying particle thread 11 (waiting for thread 366f380)
+Cleaning up particle thread 11
+Cleaned up particle thread 11
+Destroyed particle thread 11 (0)
+Destroying particle thread 12 (waiting for mutex)
+Destroying particle thread 12
+Destroying particle thread 12 (waiting for thread 366e090)
+Cleaning up particle thread 12
+Cleaned up particle thread 12
+Destroyed particle thread 12 (0)
+Destroying particle thread 13 (waiting for mutex)
+Destroying particle thread 13
+Destroying particle thread 13 (waiting for thread 3670670)
+Cleaning up particle thread 13
+Cleaned up particle thread 13
+Destroyed particle thread 13 (0)
+Destroying particle thread 14 (waiting for mutex)
+Destroying particle thread 14
+Destroying particle thread 14 (waiting for thread 3670998)
+Cleaning up particle thread 14
+Cleaned up particle thread 14
+Destroyed particle thread 14 (0)
+Creating particles thread 0
+Creating particles thread 1
+Creating particles thread 2
+Creating particles thread 3
+Creating particles thread 4
+Creating particles thread 5
+Creating particles thread 6
+Creating particles thread 7
+Creating particles thread 8
+Creating particles thread 9
+Creating particles thread 10
+Creating particles thread 11
+Creating particles thread 12
+Creating particles thread 13
+LuaVM:	LuaJIT 2.0.2	x86
+Creating particles thread 14
+Running lua loader code...
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+===	
+Reboot using	te4	LATEST	boot	player	false
+[ENGINE LOADER] available from teae: 	te4-1.6.7
+[ENGINE LOADER] found engines	te4={[1]={[1]=1.000000 , [2]=6.000000 , [3]=7.000000 , [4]="te4" , [5]=17.000000 , ["load_teae"]="/engines/te4-1.6.7.teae" , } , } __byname={["te4-1.6.7"]=true , } 
+[ENGINE LOADER] looked in:
+	C:\Users\casio\\T-Engine\4.0
+	F:\OneDrive\Game Development\TEngine\7DRL\\game\thirdparty
+	F:\OneDrive\Game Development\TEngine\7DRL\\game
+[ENGINE LOADER] sorted:	te4	1	6	7
+[ENGINE LOADER] loading engine:	1	6	7	te4
+[ENGINE LOADER] using archived engine:	/engines/te4-1.6.7.teae
+Available resolutions: 2560x1080x32
+Available resolutions: 1920x1080x32
+Available resolutions: 1680x1050x32
+Available resolutions: 1600x1024x32
+Available resolutions: 1600x900x32
+Available resolutions: 1440x900x32
+Available resolutions: 1366x768x32
+Available resolutions: 1360x768x32
+Available resolutions: 1360x765x32
+Available resolutions: 1280x1024x32
+Available resolutions: 1280x960x32
+Available resolutions: 1280x800x32
+Available resolutions: 1280x768x32
+Available resolutions: 1280x720x32
+Available resolutions: 1176x664x32
+Available resolutions: 1152x864x32
+Available resolutions: 1152x648x32
+Available resolutions: 1024x768x32
+Available resolutions: 800x600x32
+Available resolutions: 720x576x32
+Available resolutions: 720x480x32
+Available resolutions: 640x480x32
+0==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+1==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+2==WRITEPATH==allowed== C:\Users\casio\T-Engine\4.0\
+3==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==WRITEPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+0==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\
+1==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\engines\
+2==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+3==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+5==READPATH==allowed== C:\Users\casio\T-Engine\4.0\
+6==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+7==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+8==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\engines\te4-1.6.7.teae\
+9==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+10==READPATH==allowed== F:\OneDrive\Game Development\TEngine\7DRL\game\
+[KEYBINDER] Loaded keybinds: move
+[KEYBINDER] Loaded keybinds: hotkeys
+[KEYBINDER] Loaded keybinds: inventory
+[KEYBINDER] Loaded keybinds: actions
+[KEYBINDER] Loaded keybinds: interface
+[KEYBINDER] Loaded keybinds: debug
+Remapping	MOVE_UP	table: 0x06d78058
+Remapping	MOVE_RIGHT_DOWN	table: 0x06d780e0
+Remapping	MOVE_RIGHT	table: 0x06d78130
+Remapping	TOGGLE_NPC_LIST	table: 0x06d781e8
+Remapping	MOVE_LEFT	table: 0x06d783e0
+Remapping	MOVE_DOWN	table: 0x06d78430
+Remapping	MOVE_RIGHT_UP	table: 0x06d78180
+Remapping	MOVE_LEFT_DOWN	table: 0x06d78bb8
+Remapping	MOVE_LEFT_UP	table: 0x06d78480
+setResolution: switching resolution to	1280x717 Windowed	1280	717	false	false	(forced)
+Setting resolution to 1280x717 (windowed, with borders)
+[DO RESIZE] Requested: 1280x717 (0, 0); zoom 100%
+[DO RESIZE] Got: 1280x717 (0, 0)
+OpenGL max texture size: 32768
+setResolution: performing onResolutionChange...
+
+onResolutionChange: resolution changed to 	1280	717	from	nil	nil
+onResolutionChange: no game yet!
+[ONLINE PROFILE] fun facts	nil
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[ENGINE] Setting

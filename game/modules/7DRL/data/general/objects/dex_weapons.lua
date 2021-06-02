@@ -1,0 +1,106 @@
+newEntity{
+    define_as = "BASE_DAGGER",
+    slot = "MAIN_HAND",
+    type = "weapon", subtype="dagger",
+    display = "/", color=colors.SLATE,
+    encumber = 3,
+    rarity = 5,
+    dex_multiplier = 1.2,
+    combat = { sound = "actions/melee", sound_miss = "actions/melee_miss", },
+    egos = "/data/general/egos/basic.lua", egos_chance = { prefix=20, suffix=20 },
+    name = "a generic battleaxe",
+    desc = [[t4modules massive two-handed battleaxes.]],
+    level_up = {
+        str = 0,
+        dex = 1,
+    },
+    combat = {
+        physical_damage =  resolvers.rngavg(2, 5),
+        fire_damage = 0,
+        cold_damage = 0,
+        arcane_damage = 0,
+        holy_damage = 0,
+        unholy_damage = 0,
+        bonus_damage = 0,
+    },
+}
+
+newEntity{ base = "BASE_DAGGER",
+    name = "Dagger",
+    level_range = {1, 10},
+    require = { stat = { str=1 }, },
+    cost = 5,
+    lore = "This is a basic dagger",
+}
+
+newEntity{
+    define_as = "BASE_RAPIER",
+    slot = "MAIN_HAND",
+    type = "weapon", subtype="rapier",
+    display = "/", color=colors.SLATE,
+    encumber = 3,
+    rarity = 5,
+    str_multiplier = 0.8,
+    dex_multiplier = 1.2,
+    combat = { sound = "actions/melee", sound_miss = "actions/melee_miss", },
+    egos = "/data/general/egos/basic.lua", egos_chance = { prefix=20, suffix=20 },
+    name = "a generic battleaxe",
+    desc = [[t4modules massive two-handed battleaxes.]],
+    level_up = {
+        str = 0,
+        dex = 1,
+    },
+    combat = {
+        physical_damage =  resolvers.rngavg(2, 5),
+        fire_damage = 0,
+        cold_damage = 0,
+        arcane_damage = 0,
+        holy_damage = 0,
+        unholy_damage = 0,
+        bonus_damage = 0,
+    },
+}
+
+newEntity{ base = "BASE_RAPIER",
+    name = "Rapier",
+    level_range = {1, 10},
+    require = { stat = { str=1 }, },
+    cost = 5,
+    lore = "This is a basic Rapier",
+}
+
+newEntity{
+    define_as = "BASE_SCIMITAR",
+    slot = "MAIN_HAND",
+    type = "weapon", subtype="scimitar",
+    display = "/", color=colors.SLATE,
+    encumber = 3,
+    rarity = 5,
+    str_multiplier = 0.8,
+    dex_multiplier = 1.2,
+    combat = { sound = "actions/melee", sound_miss = "actions/melee_miss", },
+    egos = "/data/general/egos/basic.lua", egos_chance = { prefix=20, suffix=20 },
+    name = "a generic battleaxe",
+    desc = [[t4modules massive two-handed battleaxes.]],
+    level_up = {
+        str = 0,
+        dex = 1,
+    },
+    combat = {
+        physical_damage =  resolvers.rngavg(2, 5),
+        fire_damage = 0,
+        cold_damage = 0,
+        arcane_damage = 0,
+        holy_damage = 0,
+        unholy_damage = 0,
+        bonus_damage = 0,
+    },
+}
+
+newEntity{ base = "BASE_SCIMITAR",
+    name = "Scimitar",
+    level_range = {1, 10},
+    require = { stat = { str=1 }, },
+    cost = 5,
+    lore = "This is a basic Scimitar",
+}

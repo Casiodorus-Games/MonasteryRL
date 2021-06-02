@@ -1,0 +1,51 @@
+newEntity{
+    define_as = "BASE_SHIELD",
+    slot = "OFF_HAND",
+    type = "armor", subtype="shield",
+    display = "^", color=colors.SLATE,
+    encumber = 3,
+    rarity = 5,
+    -- egos = "/data/general/egos/basic.lua", egos_chance = { prefix=20, suffix=20 },
+    name = "a generic chest armor",
+    desc = [[A Generic chest armor.]],
+    lvlup = {
+        str = 0,
+        dex = 0,
+    },
+    resistances = {
+        physical_resistance = resolvers.resistance(1,5),
+        fire_resistance = 0,
+        cold_resistance = 0,
+        arcane_resistance = 0,
+        holy_resistance = 0,
+        unholy_resistance = 0,
+        bonus_resistance = 0,
+    },
+    combat = {
+        physical_damage = 0,
+        armor = 0,
+        damage_reduction = 0,
+        fire_damage = 0,
+        cold_damage = 0,
+        arcane_damage = 0,
+        holy_damage = 0,
+        unholy_damage = 0,
+        bonus_damage = 0,
+    },
+}
+
+newEntity{ base = "BASE_SHIELD",
+    name = "Round Shield",
+    level_range = {1, 10},
+    require = { stat = { str=1 }, },
+    cost = 5,
+    lore = "This is a basic shield",
+    combat = {
+        physical_damage = 0,
+        armor = 1,
+        damage_reduction = 0,
+    },
+    resistances = {
+        physical_resistance = resolvers.resistance(1,5),
+    },
+}
