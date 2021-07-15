@@ -106,3 +106,30 @@ function resolvers.calc.resistance(t)
 	return value
 end
 
+--- Resolves inventory creation for an actor
+function resolvers.inventory(t)
+	return {__resolver="inventory", __resolve_last=true, t}
+end
+--- Actually resolve the inventory creation
+function resolvers.calc.inventory(t, e)
+	-- Iterate of object requests, try to create them and equip them
+	for i, filter in ipairs(t[1]) do
+		print("Inventory resolver", e.name, filter.type, filter.subtype)
+		local o
+		if not filter.defined then
+			o = game.zone:makeEntity(game.level, "object", filter, nil, true)
+		else
+			o = game.zone:makeEntityByName(game.level, "object", filter.defined)
+		end
+		if o then
+			print("Zone made us an inventory according to filter!", o:getName())
+			e:addObject(e.INVEN_INVEN, o)
+			game.zone:addEntity(game.level, o, "object")
+
+			--if t[1].id then o:identify(t[1].id) end
+		end
+	end
+	e:sortInven()
+	-- Delete the origin field
+	return nil
+end

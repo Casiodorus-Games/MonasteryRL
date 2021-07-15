@@ -39,7 +39,7 @@ newEntity{ base = "BASE_SHIELD",
     level_range = {1, 10},
     require = { stat = { str=1 }, },
     cost = 5,
-    lore = "This is a basic shield",
+    lore = "A simple round shield",
     combat = {
         physical_damage = 0,
         armor = 1,

@@ -28,3 +28,4 @@ Casiodorus 7DRL game
 ]]
 starter = "mod.load"
 show_only_on_cheat = false -- Example modules are not shown to normal players
+background_name = {"module"}

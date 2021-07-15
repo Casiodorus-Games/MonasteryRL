@@ -25,7 +25,7 @@ newEntity{
 	combat = {
 		armor = 0,
 		damage_reduction = 0,
-        physical_damage =  resolvers.rngavg(2, 5),
+        physical_damage =  10,
         fire_damage = 0,
         cold_damage = 0,
         arcane_damage = 0,

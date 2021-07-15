@@ -27,6 +27,15 @@ newEntity{
         unholy_resistance = 0,
         bonus_resistance = 0,
     },
+    combat = {
+        physical_damage =  0,
+        fire_damage = 0,
+        cold_damage = 0,
+        arcane_damage = 0,
+        holy_damage = 0,
+        unholy_damage = 0,
+        bonus_damage = 0,
+    },
 }
 
 newEntity{ base = "BASE_ARMOR",
@@ -55,7 +64,7 @@ newEntity{ base = "BASE_ARMOR",
     level_range = {1, 10},
     require = { stat = { str=1 }, },
     cost = 5,
-    lore = "This is the basic armor of a Paladin",
+    lore = "Standard issued armor of the Holy Order",
     combat = {
         armor = 1,
         damage_reduction = 0,

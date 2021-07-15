@@ -38,7 +38,7 @@ function _M:init()
 	engine.interface.GameMusic.init(self)
 	engine.interface.GameSound.init(self)
 	engine.GameEnergyBased.init(self, engine.KeyBind.new(), 100, 100)
-	self.profile_font = core.display.newFont("/data/font/DroidSerif-Italic.ttf", 14)
+	self.profile_font = core.display.newFont("/data/general/font/Ac437_IBM_CGA.ttf", 14)
 
 	local background_name = {"module"}
 	
@@ -75,7 +75,7 @@ function _M:run()
 	self:registerDialog(MainMenu.new())
 
 	-- Run the current music if any
-	self:playMusic("whatever.ogg")
+	--self:playMusic("whatever.ogg")
 
 	if self.s_log then
 		local w, h = self.s_log:getSize()

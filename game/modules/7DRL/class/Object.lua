@@ -1150,6 +1150,8 @@ function _M:getTextualDesc(compare_with, use_actor)
 	compare_with = compare_with or {}
 	local desc = tstring{}
 
+	desc:merge("Test",true)
+
 	if self.quest then desc:add({"color", "VIOLET"},"[Plot Item]", {"color", "LAST"}, true)
 	elseif self.cosmetic then desc:add({"color", "C578C6"},"[Cosmetic Item]", {"color", "LAST"}, true)
 	elseif self.unique then
@@ -2199,16 +2201,6 @@ function _M:getDesc(name_param, compare_with, never_compare, use_actor)
 	local reqs = self:getRequirementDesc(use_actor)
 	if reqs then
 		desc:merge(reqs)
-	end
-
-	if self.power_source then
-		if self.power_source.arcane then desc:add("Powered by ", {"color", "VIOLET"}, "arcane forces", {"color", "LAST"}, true) end
-		if self.power_source.nature then desc:add("Infused by ", {"color", "OLIVE_DRAB"}, "nature", {"color", "LAST"}, true) end
-		if self.power_source.antimagic then desc:add("Infused by ", {"color", "ORCHID"}, "arcane disrupting forces", {"color", "LAST"}, true) end
-		if self.power_source.technique then desc:add("Crafted by ", {"color", "LIGHT_UMBER"}, "a master", {"color", "LAST"}, true) end
-		if self.power_source.psionic then desc:add("Infused by ", {"color", "YELLOW"}, "psionic forces", {"color", "LAST"}, true) end
-		if self.power_source.unknown then desc:add("Powered by ", {"color", "CRIMSON"}, "unknown forces", {"color", "LAST"}, true) end
-		self:triggerHook{"Object:descPowerSource", desc=desc, object=self}
 	end
 
 	if self.encumber then

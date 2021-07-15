@@ -22,10 +22,13 @@ local KeyBind = require "engine.KeyBind"
 
 local UIBase = require "engine.ui.Base"
 UIBase.ui = "pixelstone"
-UIBase.defaultui = "pixelstone"
 UIBase.font = core.display.newFont("/data/general/font/Ac437_IBM_CGA.ttf", 12)
 UIBase.font_mono = core.display.newFont("/data/general/font/Ac437_IBM_CGA.ttf", 12)
 UIBase.font_bold = core.display.newFont("/data/general/font/Ac437_IBM_CGA.ttf", 12)
+UIBase.font_h = UIBase.font:lineSkip()
+UIBase.font_bold_h = UIBase.font_bold:lineSkip()
+UIBase.font_mono_w = UIBase.font_mono:size(" ")
+UIBase.font_mono_h = UIBase.font_mono:lineSkip()+2
 
 local n = core.noise.new(2)
 _2DNoise = n:makeTexture2D(64, 64)

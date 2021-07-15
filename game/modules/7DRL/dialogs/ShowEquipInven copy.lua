@@ -39,6 +39,10 @@ function _M:init(title, actor, filter, action, on_select)
 	Dialog.init(self, title or "Inventory", game.w * 0.7, game.h * 0.7, nil, nil, nil, "/data/general/font/Ac437_IBM_CGA.ttf")
 
 	self.on_select = function(item)
+		--local mx, my = core.mouse.get()
+		if item.object then
+			game:tooltipDisplayAtMap(5, 400, item.object:getDesc({do_color=true}, nil, nil, self.actor))
+		end
 		if item.object then
 			self.c_desc:switchItem(item, getToolTip(self,item))
 		end
@@ -202,22 +206,198 @@ function getToolTip(self,item)
 	local lore = item.object.lore
 	local name = item.name
 	desc:add(name, true)
-	desc:add(" ", true)
-	if item.object.ego_lore then desc:add("#YELLOW#"..item.object.ego_lore, true) end
-	desc:add(" ", true)
-	if item.object.combat then
-		if item.object.combat.physical_damage > 0 then desc:add(("#LIGHT_SLATE#Physical Damage: %s"):format(item.object.combat.physical_damage), true) end
-		if item.object.combat.holy_damage > 0 then desc:add(("#MOCCASIN#Holy Damage: %s"):format(item.object.combat.holy_damage), true) end
-		if item.object.combat.arcane_damage > 0 then desc:add(("#VIOLET#Arcane Damage: %s"):format(item.object.combat.arcane_damage), true) end
-		if item.object.combat.unholy_damage > 0 then desc:add(("#STEEL_BLUE#Unholy Damage: %s"):format(item.object.combat.unholy_damage), true) end
+	desc:add(lore, true)
+	local ego = " "
+	local color = "#WHITE#"
+	stat1_type = " "
+	stat1_color = "#WHITE#"
+	stat1 = " "
+	stat2_type = " "
+	stat2_color = "#WHITE#"
+	stat2 = " "
+	stat3_type = " "
+	stat3_color = "#WHITE#"
+	stat3 = " "
+	stat4_type = " "
+	stat4_color = "#WHITE#"
+	stat4= " "
+	if item.object.type == "armor" then 
+		local elementalTypes = getElement(item, "armor")
+		local elementalColor = getColor(item, "armor")
+		local elementDamage = getDamageType(item, "armor")
+		stat1_type = "Armor: "
+		stat1 = item.object.combat.armor
+		local count = countTable(elementalTypes)
+		if count == 4 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1].."%"
+			stat2_type = elementalTypes[2]
+			stat2_color = elementalColor[2]
+			stat2 = elementDamage[2].."%"
+			stat3_type = elementalTypes[3]
+			stat3_color = elementalColor[3]
+			stat3 = elementDamage[3].."%"
+			stat4_type = elementalTypes[4]
+			stat4_color = elementalColor[4]
+			stat4 = elementDamage[4].."%"
+		elseif count == 3 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1].."%"
+			stat2_type = elementalTypes[2]
+			stat2_color = elementalColor[2]
+			stat2 = elementDamage[2].."%"
+			stat3_type = elementalTypes[3]
+			stat3_color = elementalColor[3]
+			stat3 = elementDamage[3].."%"
+			stat4_type = " "
+			stat4= " "
+		elseif count == 2 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1].."%"
+			stat2_type = elementalTypes[2]
+			stat2_color = elementalColor[2]
+			stat2 = elementDamage[2].."%"
+			stat3_type = " "
+			stat3 = " "
+			stat4_type = " "
+			stat4= " "
+		elseif count == 1 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1].."%"
+			stat2_type = " "
+			stat2 = " "
+			stat3_type = " "
+			stat3 = " "
+			stat4_type = " "
+			stat4= " "
+		end
+	elseif item.object.type == "weapon" then
+		local elementalTypes = getElement(item, "weapon")
+		local elementalColor = getColor(item, "weapon")
+		local elementDamage = getDamageType(item, "weapon")
+		local count = countTable(elementalTypes)
+		if count == 4 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1]
+			stat2_type = elementalTypes[2]
+			stat2_color = elementalColor[2]
+			stat2 = elementDamage[2]
+			stat3_type = elementalTypes[3]
+			stat3_color = elementalColor[3]
+			stat3 = elementDamage[3]
+			stat4_type = elementalTypes[4]
+			stat4_color = elementalColor[4]
+			stat4 = elementDamage[4]
+		elseif count == 3 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1]
+			stat2_type = elementalTypes[2]
+			stat2_color = elementalColor[2]
+			stat2 = elementDamage[2]
+			stat3_type = elementalTypes[3]
+			stat3_color = elementalColor[3]
+			stat3 = elementDamage[3]
+			stat4_type = " "
+			stat4_color = " "
+			stat4= " "
+		elseif count == 2 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1]
+			stat2_type = elementalTypes[2]
+			stat2_color = elementalColor[2]
+			stat2 = elementDamage[2]
+			stat3_type = " "
+			stat3_color = " "
+			stat3 = " "
+			stat4_type = " "
+			stat4_color = " "
+			stat4= " "
+		elseif count == 1 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1]
+			stat2_type = " "
+			stat2_color = " "
+			stat2 = " "
+			stat3_type = " "
+			stat3_color = " "
+			stat3 = " "
+			stat4_type = " "
+			stat4_color = " "
+			stat4= " "
+		end
+	elseif item.object.type == "page" then 
+		local elementalTypes = getElement(item, "armor")
+		local elementalColor = getColor(item, "armor")
+		local elementDamage = getDamageType(item, "armor")
+		stat1_type = "Armor: "
+		stat1 = item.object.combat.armor
+		local count = countTable(elementalTypes)
+		if count == 4 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1].."%"
+			stat2_type = elementalTypes[2]
+			stat2_color = elementalColor[2]
+			stat2 = elementDamage[2].."%"
+			stat3_type = elementalTypes[3]
+			stat3_color = elementalColor[3]
+			stat3 = elementDamage[3].."%"
+			stat4_type = elementalTypes[4]
+			stat4_color = elementalColor[4]
+			stat4 = elementDamage[4].."%"
+		elseif count == 3 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1].."%"
+			stat2_type = elementalTypes[2]
+			stat2_color = elementalColor[2]
+			stat2 = elementDamage[2].."%"
+			stat3_type = elementalTypes[3]
+			stat3_color = elementalColor[3]
+			stat3 = elementDamage[3].."%"
+			stat4_type = " "
+			stat4= " "
+		elseif count == 2 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1].."%"
+			stat2_type = elementalTypes[2]
+			stat2_color = elementalColor[2]
+			stat2 = elementDamage[2].."%"
+			stat3_type = " "
+			stat3 = " "
+			stat4_type = " "
+			stat4= " "
+		elseif count == 1 then
+			stat1_type = elementalTypes[1]
+			stat1_color = elementalColor[1]
+			stat1 = elementDamage[1].."%"
+			stat2_type = " "
+			stat2 = " "
+			stat3_type = " "
+			stat3 = " "
+			stat4_type = " "
+			stat4= " "
+		end
 	end
-	--desc:add(" ", true)
-	if item.object.resistances then
-		if item.object.resistances.physical_resistance > 0 then desc:add(("#LIGHT_SLATE#Physical Resistance: %s"):format((item.object.resistances.physical_resistance)*100).."%", true) end
-		if item.object.resistances.holy_resistance > 0 then desc:add(("#MOCCASIN#Holy Resistance: %s"):format((item.object.resistances.holy_resistance)*100).."%", true) end
-		if item.object.resistances.arcane_resistance > 0 then desc:add(("#VIOLET#Arcane Resistance: %s"):format((item.object.resistances.arcane_resistance)*100).."%", true) end
-		if item.object.resistances.unholy_resistance > 0 then desc:add(("#STEEL_BLUE#Unholy Resistance: %s"):format((item.object.resistances.unholy_resistance)*100).."%", true) end
-	end
+	if item.object.ego_lore then ego = item.object.ego_lore end
+	local str2 = 
+		color..name..
+		"\n#YELLOW#"..lore.."\n"..ego..
+		"\n#WHITE#"..
+		"\n"..stat1_color..stat1_type.."#WHITE#"..stat1..
+		"\n"..stat2_color..stat2_type.."#WHITE#"..stat2..
+		"\n"..stat3_color..stat3_type.."#WHITE#"..stat3..
+		"\n"..stat4_color..stat4_type.."#WHITE#"..stat4
+	local str = item.object:getDesc({do_color=true})
 	return desc
 end
 

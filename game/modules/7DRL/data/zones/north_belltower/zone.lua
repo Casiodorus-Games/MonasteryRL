@@ -18,7 +18,7 @@
 -- darkgod@te4.org
 
 return {
-	name = "The Northern Belfry",
+	name = "The Belfry",
 	level_range = {1, 1},
 	max_level = 10,
 	decay = {300, 800},
@@ -28,7 +28,7 @@ return {
 		map = {
 			class = "engine.generator.map.Roomer",
 			nb_rooms = 15,
-			rooms = {"simple", "pilar"},
+			rooms = {"simple", "pilar", "corner"},
 			lite_room_chance = 100,
 			['.'] = "FLOOR",
 			['#'] = "WALL",
@@ -46,7 +46,7 @@ return {
 	},
 	levels =
 	{
-		[4] = {
+		[1] = {
 			generator = {
 				map = {
 					class = "engine.generator.map.Roomer",
@@ -68,7 +68,7 @@ return {
 				},
 			},
 		},
-		[1] = {
+		[9] = {
 			generator = {
 				map = {
 					class = "engine.generator.map.Roomer",

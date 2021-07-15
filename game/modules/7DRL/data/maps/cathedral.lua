@@ -14,29 +14,29 @@ starty = 12
 addSpot({42, 5}, "door", "intnersactum")
 
 return [[
-    ttttttttttttttttttttttttttttttttttttttttttttttttttt
-    tdddddddddddddddddddddddddddddddddddddddddddddddddt
-    tdddddddddddddddddddddddddddddddddddddddddddddddddt
-    tddddddddddddddddddddddddddddddd#############dddddt
-    tddddddddddddddddddddddddddddddd#...........#dddddt
-    tddddddddddddddddddddddddddddddd#..###i###..#dddddt
-    tddddddddddddddddddddddddddddddd#..###.###..#dddddt
-    tddddddddddddddddddddddddddddddd#...........#dddddt
-    tdddddd##########################...........#dddddt
-    tdddddd#....................................#dddddt
-    tdddddd#..###.....###.........###...........#dddddt
-    tdddddd#..###.....###.........###...........#dddddt
-    tdddddd+1...................................#dddddt
-    tdddddd#..###.....###.........###...........#dddddt
-    tdddddd#..###.....###.........###...........#dddddt
-    tdddddd#....................................#dddddt
-    tdddddd########+######################.######dddddt
-    tddddddddddddd#.....#dddddddddddddddd#......#dddddt
-    tddddddddddddd#.....#dddddddddddddddd#......#dddddt
-    tddddddddddddd#######dddddddddddddddd#......#dddddt
-    tdddddddddddddddddddddddddddddddddddd#......#dddddt
-    tdddddddddddddddddddddddddddddddddddd#.....n#dddddt
-    tdddddddddddddddddddddddddddddddddddd########dddddt
-    tdddddddddddddddddddddddddddddddddddddddddddddddddt
-    tdddddddddddddddddddddddddddddddddddddddddddddddddt
-    ttttttttttttttttttttttttttttttttttttttttttttttttttt]]
+ttttttttttttttttttttttttttttttttttttttttttttttttttt
+ttttttttttttttttttttttttttttttttttttttttttttttttttt
+ttttdtdtttttttttdttttttttttdtttddddddddddddddtttttt
+tttdddddddtttttdddtdttttttdddtdd#############tttttt
+tttddddddddttddddddtdttdtddddddd#...........#dttttt
+tddddddddddddddddddddddddddddddd#..###i###..#dttttt
+tddddddddddddddddddddddddddddddd#..###.###..#ddtttt
+tddddddddddddddddddddddddddddddd#...........#dttttt
+tdddddd##########################...........#ddtttt
+tdddddd#....................................#ddtttt
+tdddddd#..###.....###.........###...........#ddtttt
+tdddddd#..###.....###.........###...........#dttttt
+ddddddd.....................................#ddtttt
+tdddddd#..###.....###.........###...........#dttttt
+tdddddd#..###.....###.........###...........#ddtttt
+tdddddd#....................................#dttttt
+tdddddd########.######################.######dttttt
+tddddddddddddd#.....#dddddddddddddddd#......#dttttt
+ttdddddddddddd#.....#dddddddddddddddd#......#ddtttt
+tttddddddddddd#######dddddddddddddddd#......#dddttt
+ttttdttdddddddddddddddddddddddddddddd#......#ddtttt
+ttttttttdddtdddddddddddtddddddddddddd#.....n#dttttt
+tttttttttttttdddddddddttttdddddttdddd########tttttt
+ttttttttttttttttttdddttttttdddttttdtttttttttttttttt
+ttttttttttttttttttttttttttttttttttttttttttttttttttt
+ttttttttttttttttttttttttttttttttttttttttttttttttttt]]

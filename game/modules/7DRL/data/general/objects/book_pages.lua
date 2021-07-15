@@ -1,14 +1,14 @@
 newEntity{
     define_as = "BASE_PAGE",
     slot = "COMBAT_BOOK",
-    type = "page", subtype="combat",
+    type = "page", subtype="page",
     display = "^", color=colors.SLATE,
     encumber = 3,
     rarity = 5,
     egos = "/data/general/egos/book_egos.lua", egos_chance = { prefix=100, suffix=100 },
     name = "a generic chest armor",
     droppable = true,
-    dropRate = 100,
+    dropRate = 75,
     desc = [[A Generic chest armor.]],
     lvlup = {
         str = 0,
@@ -41,7 +41,7 @@ newEntity{ base = "BASE_PAGE",
     level_range = {1, 10},
     require = { stat = { str=1 }, },
     cost = 5,
-    lore = "This is a basic page for testing",
+    lore = " ",
     combat = {
     },
     resistances = {

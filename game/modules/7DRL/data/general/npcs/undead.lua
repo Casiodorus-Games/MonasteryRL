@@ -24,7 +24,7 @@ newEntity{
 	type = "humanoid", subtype = "undead",
 	display = "u", color=colors.WHITE,
 	desc = "a basic undead",
-	body = { INVEN = 10, MAIN_HAND = 1, ARMOR_SLOT = 1},
+	body = { INVEN = 10, MAIN_HAND = 1, ARMOR_SLOT = 1, COMBAT_BOOK = 1},
 	ai = "dumb_talented_simple", ai_state = { talent_in=3, },
 	stats = { str=5, dex=5, con=5 },
 	combat_armor = 0,
@@ -44,7 +44,7 @@ newEntity{
 	combat = {
 		armor = 0,
 		damage_reduction = 0,
-        physical_damage =  resolvers.rngavg(2, 5),
+        physical_damage =  0,
         fire_damage = 0,
         cold_damage = 0,
         arcane_damage = 0,

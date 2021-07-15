@@ -76,7 +76,7 @@ function _M:display()
     local h = 0
     local x = 0
 
-    self:makeTexture(("Location: %s"):format(game.zone.name), x, h, 255, 255, 255) h = h + self.font_h
+    self:makeTexture(("%s"):format(game.zone.name), x, h, 255, 255, 255) h = h + self.font_h
     
     h = 200
     x = 2
@@ -84,23 +84,23 @@ function _M:display()
     self:makeTexture(("%s#{normal}#"):format(player.name), 0, h, colors.GOLD.r, colors.GOLD.g, colors.GOLD.b, self.w) h = h + self.font_h
     self.font:setStyle("normal")
 
-    self:makeTexture(("Str/Dex/Con: #00ff00#%3d/%3d/%3d"):format(player:getStr(), player:getDex(), player:getCon()), x, h, 255, 255, 255) h = h + self.font_h
-    self:makeTexture(("X/Y: #00ff00#%3d/%3d"):format(player.x, player.y), x, h, 255, 255, 255) h = h + self.font_h
+    self:makeTexture(("Str/Dex/Con: #00ff00#%s/%s/%s"):format(player:getStr(), player:getDex(), player:getCon()), x, h, 255, 255, 255) h = h + self.font_h
+    self:makeTexture(("X/Y: #00ff00#%s/%s"):format(player.x, player.y), x, h, 255, 255, 255) h = h + self.font_h
     h = h + self.font_h
 
     --self:makeTextureBar("#c00000#Life:", nil, player.life, player.max_life, player.life_regen * util.bound((player.healing_factor or 1), 0, 2.5), x, h, 255, 255, 255, colors.DARK_RED, colors.VERY_DARK_RED) h = h + self.font_h
     self:makeTexture(("#c00000#Health: #FFFFFF#%3d/%3d"):format(player.life, player.max_life), x, h, 255, 255, 255) h = h + self.font_h
     h = 325
-    self:makeTexture(("Physical Damage: %3d"):format(weapon.combat.physical_damage+weapon.combat.bonus_damage+offhand.combat.physical_damage+offhand.combat.physical_damage), x, h, 209,209,209) h = h + self.font_h
-    self:makeTexture(("Arcane Damage: %3d"):format(weapon.combat.arcane_damage+offhand.combat.arcane_damage), x, h, 192,0,175) h = h + self.font_h
-    self:makeTexture(("Holy Damage: %3d"):format(weapon.combat.holy_damage+offhand.combat.holy_damage), x, h, 255,228,181) h = h + self.font_h
-    self:makeTexture(("Unholy Damage: %3d"):format(weapon.combat.unholy_damage+offhand.combat.unholy_damage), x, h, 70,130,180) h = h + self.font_h
+    self:makeTexture(("Physical Damage: %s"):format(weapon.combat.physical_damage+weapon.combat.bonus_damage+player:GetCombatBookDamage("physical")+offhand.combat.physical_damage+offhand.combat.physical_damage), x, h, 209,209,209) h = h + self.font_h
+    self:makeTexture(("Arcane Damage: %s"):format(weapon.combat.arcane_damage+player:GetCombatBookDamage("arcane")+offhand.combat.arcane_damage), x, h, 192,0,175) h = h + self.font_h
+    self:makeTexture(("Holy Damage: %s"):format(weapon.combat.holy_damage+player:GetCombatBookDamage("holy")+offhand.combat.holy_damage), x, h, 255,228,181) h = h + self.font_h
+    self:makeTexture(("Unholy Damage: %s"):format(weapon.combat.unholy_damage+player:GetCombatBookDamage("unholy")+offhand.combat.unholy_damage), x, h, 70,130,180) h = h + self.font_h
 
     h = 475
-    self:makeTexture(("Physical Resistance: %3d"):format(getResistance(player, "physical")*100)..("%"), x, h, 209,209,209) h = h + self.font_h
-    self:makeTexture(("Arcane Resistance: %3d"):format(getResistance(player, "arcane")*100)..("%"), x, h, 192,0,175) h = h + self.font_h
-    self:makeTexture(("Holy Resistance: %3d"):format(getResistance(player, "holy")*100)..("%"), x, h, 255,228,181) h = h + self.font_h
-    self:makeTexture(("Unholy Resistance: %3d"):format(getResistance(player, "unholy")*100)..("%"), x, h, 70,130,180) h = h + self.font_h
+    self:makeTexture(("Physical Resistance: %s"):format(getResistance(player, "physical")*100)..("%"), x, h, 209,209,209) h = h + self.font_h
+    self:makeTexture(("Arcane Resistance: %s"):format(getResistance(player, "arcane")*100)..("%"), x, h, 192,0,175) h = h + self.font_h
+    self:makeTexture(("Holy Resistance: %s"):format(getResistance(player, "holy")*100)..("%"), x, h, 255,228,181) h = h + self.font_h
+    self:makeTexture(("Unholy Resistance: %s"):format(getResistance(player, "unholy")*100)..("%"), x, h, 70,130,180) h = h + self.font_h
 
     if savefile_pipe.saving then
         h = h + self.font_h
@@ -141,6 +141,11 @@ function getResistance(target, resType)
 		if target:getInven("ARMOR_SLOT")[1] then
 		resistance = resistance + target:getInven("ARMOR_SLOT")[1].resistances.physical_resistance
 		end
+        if target:getInven("OFF_HAND") then
+            if target:getInven("OFF_HAND")[1] then
+                resistance = resistance + target:getInven("OFF_HAND")[1].resistances.physical_resistance
+            end
+        end
         for x in pairs(target:getInven("COMBAT_BOOK")) do
             counter = counter + 1
             if target:getInven("COMBAT_BOOK")[counter] then

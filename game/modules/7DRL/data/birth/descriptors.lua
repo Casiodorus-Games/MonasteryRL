@@ -40,6 +40,13 @@ newBirthDescriptor{
 		combat = {
 			armor = 0,
 			damage_reduction = 0,
+			physical_damage =  0,
+			fire_damage = 0,
+			cold_damage = 0,
+			arcane_damage = 0,
+			holy_damage = 0,
+			unholy_damage = 0,
+			bonus_damage = 0,
 		},
 	},
 

@@ -53,13 +53,13 @@ function _M:attackTarget(target, mult)
 	local dr = armorEquip.combat.damage_reduction+target.combat.damage_reduction
 
 	if self.combat then
-		DamageType:get(DamageType.PHYSICAL).projector(self, target.x, target.y, DamageType.PHYSICAL, math.max(0, weaponMH.combat.physical_damage+weaponMH.combat.bonus_damage-(weaponMH.combat.physical_damage*getResistance(target,"physical")))-armor-dr)
+		DamageType:get(DamageType.PHYSICAL).projector(self, target.x, target.y, DamageType.PHYSICAL, math.max(0, self:getCharBonus("physical")+weaponMH.combat.physical_damage+weaponMH.combat.bonus_damage+self:GetCombatBookDamage("physical")-(weaponMH.combat.physical_damage*getResistance(target,"physical")))-armor-dr)
 		--DamageType:get(DamageType.PHYSICAL).projector(self, target.x, target.y, DamageType.PHYSICAL, math.max(0, 0))
-		DamageType:get(DamageType.FIRE).projector(self, target.x, target.y, DamageType.FIRE, math.max(0, weaponMH.combat.fire_damage-(weaponMH.combat.fire_damage*getResistance(target,"fire")))-armor-dr)
-		DamageType:get(DamageType.COLD).projector(self, target.x, target.y, DamageType.COLD, math.max(0, weaponMH.combat.cold_damage-(weaponMH.combat.cold_damage*getResistance(target,"cold")))-armor-dr)
-		DamageType:get(DamageType.ARCANE).projector(self, target.x, target.y, DamageType.ARCANE, math.max(0, weaponMH.combat.arcane_damage-(weaponMH.combat.arcane_damage*getResistance(target,"arcane")))-armor-dr)
-		DamageType:get(DamageType.HOLY).projector(self, target.x, target.y, DamageType.HOLY, math.max(0, weaponMH.combat.holy_damage-(weaponMH.combat.holy_damage*target.getResistance(target,"holy")))-armor-dr)
-		DamageType:get(DamageType.UNHOLY).projector(self, target.x, target.y, DamageType.UNHOLY, math.max(0, weaponMH.combat.unholy_damage-(weaponMH.combat.unholy_damage*getResistance(target,"unholy")))-armor-dr)
+		DamageType:get(DamageType.FIRE).projector(self, target.x, target.y, DamageType.FIRE, math.max(0, self:getCharBonus("fire")+weaponMH.combat.fire_damage+self:GetCombatBookDamage("fire")-(weaponMH.combat.fire_damage*getResistance(target,"fire")))-armor-dr)
+		DamageType:get(DamageType.COLD).projector(self, target.x, target.y, DamageType.COLD, math.max(0, self:getCharBonus("cold")+weaponMH.combat.cold_damage+self:GetCombatBookDamage("cold")-(weaponMH.combat.cold_damage*getResistance(target,"cold")))-armor-dr)
+		DamageType:get(DamageType.ARCANE).projector(self, target.x, target.y, DamageType.ARCANE, math.max(0, self:getCharBonus("arcane")+weaponMH.combat.arcane_damage+self:GetCombatBookDamage("arcane")-(weaponMH.combat.arcane_damage*getResistance(target,"arcane")))-armor-dr)
+		DamageType:get(DamageType.HOLY).projector(self, target.x, target.y, DamageType.HOLY, math.max(0, self:getCharBonus("holy")+weaponMH.combat.holy_damage+self:GetCombatBookDamage("holy")-(weaponMH.combat.holy_damage*target.getResistance(target,"holy")))-armor-dr)
+		DamageType:get(DamageType.UNHOLY).projector(self, target.x, target.y, DamageType.UNHOLY, math.max(0, self:getCharBonus("unholy")+weaponMH.combat.unholy_damage+self:GetCombatBookDamage("unholy")-(weaponMH.combat.unholy_damage*getResistance(target,"unholy")))-armor-dr)
 	end
 
 	-- We use up our own energy
@@ -217,4 +217,115 @@ function getResistance(target, resType)
 		end
 	end	
 	return resistance
+end
+
+function _M:getCharBonus(type)
+	local damageBonus = 0
+	if type == "physical" then
+		if self.combat.physical_damage > 0 then
+			damageBonus = damageBonus + self.combat.physical_damage
+			return damageBonus
+		end
+	end
+	if type == "fire" then
+		if self.combat.fire_damage > 0 then
+			damageBonus = damageBonus + self.combat.fire_damage
+			return damageBonus
+		end
+	end
+	if type == "cold" then
+		if self.combat.cold_damage > 0 then
+			damageBonus = damageBonus + self.combat.cold_damage
+			return damageBonus
+		end
+	end
+	if type == "arcane" then
+		if self.combat.arcane_damage > 0 then
+			damageBonus = damageBonus + self.combat.arcane_damage
+			return damageBonus
+		end
+	end
+	if type == "holy" then
+		if self.combat.holy_damage > 0 then
+			damageBonus = damageBonus + self.combat.holy_damage
+			return damageBonus
+		end
+	end
+	if type == "unholy" then
+		if self.combat.unholy_damage > 0 then
+			damageBonus = damageBonus + self.combat.unholy_damage
+			return damageBonus
+		end
+	end
+	return damageBonus
+end
+
+function _M:GetCombatBookDamage(type) 
+	local damageBonus = 0
+	local counter = 0
+	if not self:getInven("COMBAT_BOOK") then return end
+	if type == "physical" then
+		for x in pairs(self:getInven("COMBAT_BOOK")) do
+			counter = counter + 1
+			if self:getInven("COMBAT_BOOK")[counter] then
+				damageBonus = damageBonus + self:getInven("COMBAT_BOOK")[counter].combat.physical_damage
+			end
+		end
+		return damageBonus
+	end
+	if type == "fire" then
+		for x in pairs(self:getInven("COMBAT_BOOK")) do
+			counter = counter + 1
+			if self:getInven("COMBAT_BOOK")[counter] then
+				damageBonus = damageBonus + self:getInven("COMBAT_BOOK")[counter].combat.fire_damage
+			end
+		end
+		return damageBonus
+	end
+	if type == "cold" then
+		for x in pairs(self:getInven("COMBAT_BOOK")) do
+			counter = counter + 1
+			if self:getInven("COMBAT_BOOK")[counter] then
+				damageBonus = damageBonus + self:getInven("COMBAT_BOOK")[counter].combat.cold_damage
+			end
+		end
+		return damageBonus
+	end
+	if type == "arcane" then
+		for x in pairs(self:getInven("COMBAT_BOOK")) do
+			counter = counter + 1
+			if self:getInven("COMBAT_BOOK")[counter] then
+				damageBonus = damageBonus + self:getInven("COMBAT_BOOK")[counter].combat.arcane_damage
+			end
+		end
+		return damageBonus
+	end
+	if type == "holy" then
+		for x in pairs(self:getInven("COMBAT_BOOK")) do
+			counter = counter + 1
+			if self:getInven("COMBAT_BOOK")[counter] then
+				damageBonus = damageBonus + self:getInven("COMBAT_BOOK")[counter].combat.holy_damage
+			end
+		end
+		return damageBonus
+	end
+	if type == "unholy" then
+		for x in pairs(self:getInven("COMBAT_BOOK")) do
+			counter = counter + 1
+			if self:getInven("COMBAT_BOOK")[counter] then
+				damageBonus = damageBonus + self:getInven("COMBAT_BOOK")[counter].combat.unholy_damage
+			end
+		end
+		return damageBonus
+	end
+	if type == "bonus" then
+		for x in pairs(self:getInven("COMBAT_BOOK")) do
+			counter = counter + 1
+			if self:getInven("COMBAT_BOOK")[counter] then
+				damageBonus = damageBonus + self:getInven("COMBAT_BOOK")[counter].combat.bonus_damage
+			end
+		end
+		return damageBonus
+	end
+	return damageBonus
 end

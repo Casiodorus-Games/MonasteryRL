@@ -51,6 +51,6 @@ newEntity{ base = "BASE_CULTIST_LONGSWORD",
     cost = 5,
     lore = "This is a basic longsword",
     combat = {
-        unholy_damage = 1,
+        unholy_damage = resolvers.rngavg(2, 5),
     },
 }

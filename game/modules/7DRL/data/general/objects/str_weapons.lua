@@ -34,7 +34,7 @@ newEntity{ base = "BASE_LONGSWORD",
     level_range = {1, 10},
     require = { stat = { str=1 }, },
     cost = 5,
-    lore = "This is a basic longsword",
+    lore = "A simple longsword ",
     combat = {
     },
 }

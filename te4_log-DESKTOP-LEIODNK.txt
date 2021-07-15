@@ -1,0 +1,1130 @@
+WebCore config: library(C:\OneDrive\Game Development\TEngine\7DRL\te4-web.dll) spawn(C:\OneDrive\Game Development\TEngine\7DRL\cef3spawn.exe)
+Loading WebCore: Failed loading C:\OneDrive\Game Development\TEngine\7DRL\te4-web.dll: The specified module could not be found.
+
+[CPU] Detected 8 CPUs
+OpenAL device available: OpenAL Soft (default OpenAL Soft)
+Available video driver: windows
+Available video driver: dummy
+NO SELFEXE: bootstrapping from CWD
+Creating save thread
+Loading discord rpc: library(C:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll) => Failed loading C:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll: The specified module could not be found.
+
+===top 0
+Booting T-Engine from: C:\OneDrive\Game Development\TEngine\7DRL\7DRL.exe
+SelfExe gave us app directory of:	C:\OneDrive\Game Development\TEngine\7DRL\
+LuaVM:	LuaJIT 2.0.2	x86
+Creating particles thread 0
+Creating particles thread 1
+Creating particles thread 2
+Creating particles thread 3
+Creating particles thread 4
+Creating particles thread 5
+Creating particles thread 6
+[DO RESIZE] Requested: 800x600 (0, 0); zoom 100%
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+[GAMMA] Getting desktop gamma of 1.000000
+[DO RESIZE] Got: 800x600 (0, 0)
+OpenGL max texture size: 16384
+OpenGL max texture size: 16384
+Upgrading black texture to size 64
+Running lua loader code...
+Reboot using	te4	LATEST	boot	player	false
+[ENGINE LOADER] available from teae: 	te4-1.6.7
+[ENGINE LOADER] found engines	te4={[1]={[1]=1.000000 , [2]=6.000000 , [3]=7.000000 , [4]="te4" , [5]=17.000000 , ["load_teae"]="/engines/te4-1.6.7.teae" , } , } __byname={["te4-1.6.7"]=true , } 
+[ENGINE LOADER] looked in:
+	C:\Users\HomeMac\\T-Engine\4.0
+	C:\OneDrive\Game Development\TEngine\7DRL\\game\thirdparty
+	C:\OneDrive\Game Development\TEngine\7DRL\\game
+[ENGINE LOADER] sorted:	te4	1	6	7
+[ENGINE LOADER] loading engine:	1	6	7	te4
+[ENGINE LOADER] using archived engine:	/engines/te4-1.6.7.teae
+Available resolutions: 2560x1440x32
+Available resolutions: 1920x1440x32
+Available resolutions: 1920x1200x32
+Available resolutions: 1920x1080x32
+Available resolutions: 1680x1050x32
+Available resolutions: 1600x1200x32
+Available resolutions: 1600x1024x32
+Available resolutions: 1600x900x32
+Available resolutions: 1366x768x32
+Available resolutions: 1360x768x32
+Available resolutions: 1280x1024x32
+Available resolutions: 1280x960x32
+Available resolutions: 1280x800x32
+Available resolutions: 1280x768x32
+Available resolutions: 1280x720x32
+Available resolutions: 1152x864x32
+Available resolutions: 1024x768x32
+Available resolutions: 800x600x32
+Available resolutions: 720x576x32
+Available resolutions: 720x480x32
+Available resolutions: 640x480x32
+Available resolutions: 2560x1440x16
+Available resolutions: 1920x1440x16
+Available resolutions: 1920x1200x16
+Available resolutions: 1920x1080x16
+Available resolutions: 1680x1050x16
+Available resolutions: 1600x1200x16
+Available resolutions: 1600x1024x16
+Available resolutions: 1600x900x16
+Available resolutions: 1366x768x16
+Available resolutions: 1360x768x16
+Available resolutions: 1280x1024x16
+Available resolutions: 1280x960x16
+Available resolutions: 1280x800x16
+Available resolutions: 1280x768x16
+Available resolutions: 1280x720x16
+Available resolutions: 1152x864x16
+Available resolutions: 1024x768x16
+Available resolutions: 800x600x16
+Available resolutions: 720x576x16
+Available resolutions: 720x480x16
+Available resolutions: 640x480x16
+0==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+1==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+2==WRITEPATH==allowed== C:\Users\HomeMac\T-Engine\4.0\
+3==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+0==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\
+1==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\engines\
+2==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+3==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+5==READPATH==allowed== C:\Users\HomeMac\T-Engine\4.0\
+6==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+7==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+8==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\engines\te4-1.6.7.teae\
+9==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+10==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\
+Available resolutions: 2560x1440x32
+Available resolutions: 1920x1440x32
+Available resolutions: 1920x1200x32
+Available resolutions: 1920x1080x32
+Available resolutions: 1680x1050x32
+Available resolutions: 1600x1200x32
+Available resolutions: 1600x1024x32
+Available resolutions: 1600x900x32
+Available resolutions: 1366x768x32
+Available resolutions: 1360x768x32
+Available resolutions: 1280x1024x32
+Available resolutions: 1280x960x32
+Available resolutions: 1280x800x32
+Available resolutions: 1280x768x32
+Available resolutions: 1280x720x32
+Available resolutions: 1152x864x32
+Available resolutions: 1024x768x32
+Available resolutions: 800x600x32
+Available resolutions: 720x576x32
+Available resolutions: 720x480x32
+Available resolutions: 640x480x32
+Available resolutions: 2560x1440x16
+Available resolutions: 1920x1440x16
+Available resolutions: 1920x1200x16
+Available resolutions: 1920x1080x16
+Available resolutions: 1680x1050x16
+Available resolutions: 1600x1200x16
+Available resolutions: 1600x1024x16
+Available resolutions: 1600x900x16
+Available resolutions: 1366x768x16
+Available resolutions: 1360x768x16
+Available resolutions: 1280x1024x16
+Available resolutions: 1280x960x16
+Available resolutions: 1280x800x16
+Available resolutions: 1280x768x16
+Available resolutions: 1280x720x16
+Available resolutions: 1152x864x16
+Available resolutions: 1024x768x16
+Available resolutions: 800x600x16
+Available resolutions: 720x576x16
+Available resolutions: 720x480x16
+Available resolutions: 640x480x16
+[RESOLUTION] no configured resolution, defaulting to biggest possible: 	2560	1440
+[KEYBINDER] Loaded keybinds: move
+[KEYBINDER] Loaded keybinds: hotkeys
+[KEYBINDER] Loaded keybinds: inventory
+[KEYBINDER] Loaded keybinds: actions
+[KEYBINDER] Loaded keybinds: interface
+[KEYBINDER] Loaded keybinds: debug
+setResolution: switching resolution to	2560x1440 Fullscreen	2560	1440	true	nil	(forced)
+Setting resolution to 2560x1440 (fullscreen, with borders)
+[DO RESIZE] Requested: 2560x1440 (1, 0); zoom 100%
+[DO RESIZE] Got: 2560x1440 (1, 0)
+OpenGL max texture size: 16384
+setResolution: performing onResolutionChange...
+
+onResolutionChange: resolution changed to 	2560	1440	from	nil	nil
+onResolutionChange: no game yet!
+Creating profile thread
+[ONLINE PROFILE] fun facts	nil
+[PROFILE] mounted 	online	on /current-profile
+LuaVM:	LuaJIT 2.0.2	x86
+TE4Online starting...
+[PROFILE] unmounted 	online	from /current-profile
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[ENGINE] Switching to turn based
+[SAVEFILE PIPE] force waiting
+Creating module	7DRL	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for MonasteryRL-0.0.1 using engine te4-1.6.7
+Creating module	boot	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for boot-1.0.0 using engine te4-1.6.7
+* Module: boot
+ ** 1.0.0
+* Module: MonasteryRL
+ ** 0.0.1
+After fs.reset
+[1] = {
+  [path] = C:\OneDrive\Game Development\TEngine\7DRL\\game\engines\te4-1.6.7.teae
+}
+[MODULE] booting module version	boot-1.0.0
+[ENGINE] Switching to turn based
+Loading savefile 	/save//
+Loading savefile 	/save/player/
+Make wait background texture 2 : 0x1084489728 (0, 1083604992)
+Upgrading black texture to size 262144
+Upgrading black texture to size 4194304
+table: 0x0c371be0	normal
+Using cached font	/data/font/Vera.ttf	12
+table: 0x0c3a9760	normal
+Using cached font	/data/font/Vera.ttf	12
+Post-processing hooks.
+[MODULE] All hashes validation: 	nil	no online profile active
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[PROFILE] Thread connecting to profiles.te4.org on ports 	2257	2258
+[PROFILE] Thread connected to profiles.te4.org
+[ONLINE PROFILE] reconnecting to channels
+[PROFILE THREAD] batching CSETs
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+[MODULE LOADER] loading module	T-Engine4 Main Menu 	[mod.load]	::	nil	nil
+[GAMMA] Not setting gamma correction yet, no fullscreen shader found	1.2
+[ENGINE] Switching to turn based
+[GAMMA] Not setting gamma correction yet, no fullscreen shader found	1.2
+Loading savefile 	/save/player/
+[SHADER] Loading from /data/gfx/shaders/full_fbo.lua
+[SHADER] Loaded shader with totalname	full_fbo[]
+New GL Shader program 1
+New GL Shader 2 of type 35632
+[SHADER] created fragment shader from /data/gfx/shaders/full_fbo.frag
+*p 1: Uniform: 0: 1406 gamma
+*p 1: Uniform: 1: 8B5E sceneBuffer
+[GAMMA] Setting gamma correction using fullscreen shader	1.2
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[MODULE LOADER] done loading module	T-Engine4 Main Menu 
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+Wait finished, counted 2, 10019 ticks
+[PlayerProfile] eventConnected
+[PROFILE THREAD] flushing CSETs
+[PROFILE THREAD] flushing CSETs ignored, empty dataset
+SDL_WINDOWEVENT_MOVED: ignored due to fullscreen
+SDL_WINDOWEVENT_RESIZED: ignored due to fullscreen
+[ENGINE] Setting requested FPS to 2 (500 ms)
+SDL_WINDOWEVENT_MOVED: ignored due to fullscreen
+SDL_WINDOWEVENT_RESIZED: ignored due to fullscreen
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[SOUND] loading from	/data/sound/ui/subtle_button_sound.ogg	:=:	sound "/data/sound/ui/subtle_button_sound.ogg" : <static>
+Creating module	7DRL	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for MonasteryRL-0.0.1 using engine te4-1.6.7
+Creating module	boot	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for boot-1.0.0 using engine te4-1.6.7
+* Module: boot
+ ** 1.0.0
+* Module: MonasteryRL
+ ** 0.0.1
+After fs.reset
+[1] = {
+  [path] = C:\OneDrive\Game Development\TEngine\7DRL\game\modules\boot/data/
+  [mount] = data/
+}
+[2] = {
+  [path] = C:\OneDrive\Game Development\TEngine\7DRL\\game\engines\te4-1.6.7.teae
+}
+Using cached font	/data/font/DroidSans-Bold.ttf	16
+SDL_WINDOWEVENT_MOVED: ignored due to fullscreen
+SDL_WINDOWEVENT_RESIZED: ignored due to fullscreen
+[ENGINE] Setting requested FPS to 2 (500 ms)
+SDL_WINDOWEVENT_MOVED: ignored due to fullscreen
+SDL_WINDOWEVENT_RESIZED: ignored due to fullscreen
+[ENGINE] Setting requested FPS to 30 (33 ms)
+Using cached font	/data/font/DroidSans-Bold.ttf	16
+[ENGINE] Switching to turn based
+[SAVEFILE PIPE] force waiting
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[MAIN] rebooting lua state: 	te4	1.6.7	MonasteryRL-0.0.1	Renault	true
+[ENGINE] Switching to turn based
+Deleting shader 1 (is clone 0)
+NO SELFEXE: bootstrapping from CWD
+Loading discord rpc: library(C:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll) => Failed loading C:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll: The specified module could not be found.
+
+===top 0
+Booting T-Engine from: C:\OneDrive\Game Development\TEngine\7DRL\7DRL.exe
+SelfExe gave us app directory of:	C:\OneDrive\Game Development\TEngine\7DRL\
+LuaVM:	LuaJIT 2.0.2	x86
+Destroying particle thread 0 (waiting for mutex)
+Destroying particle thread 0
+Destroying particle thread 0 (waiting for thread 3f0f9d0)
+Cleaning up particle thread 0
+Cleaned up particle thread 0
+Destroyed particle thread 0 (0)
+Destroying particle thread 1 (waiting for mutex)
+Destroying particle thread 1
+Destroying particle thread 1 (waiting for thread 3f10138)
+Cleaning up particle thread 1
+Cleaned up particle thread 1
+Destroyed particle thread 1 (0)
+Destroying particle thread 2 (waiting for mutex)
+Destroying particle thread 2
+Destroying particle thread 2 (waiting for thread 3f10710)
+Cleaning up particle thread 2
+Cleaned up particle thread 2
+Destroyed particle thread 2 (0)
+Destroying particle thread 3 (waiting for mutex)
+Destroying particle thread 3
+Destroying particle thread 3 (waiting for thread 3f10cc0)
+Cleaning up particle thread 3
+Cleaned up particle thread 3
+Destroyed particle thread 3 (0)
+Destroying particle thread 4 (waiting for mutex)
+Destroying particle thread 4
+Destroying particle thread 4 (waiting for thread 3f112a0)
+Cleaning up particle thread 4
+Cleaned up particle thread 4
+Destroyed particle thread 4 (0)
+Destroying particle thread 5 (waiting for mutex)
+Destroying particle thread 5
+Destroying particle thread 5 (waiting for thread 3f117e8)
+Cleaning up particle thread 5
+Cleaned up particle thread 5
+Destroyed particle thread 5 (0)
+Destroying particle thread 6 (waiting for mutex)
+Destroying particle thread 6
+Destroying particle thread 6 (waiting for thread 3f11d30)
+Cleaning up particle thread 6
+Cleaned up particle thread 6
+Destroyed particle thread 6 (0)
+Creating particles thread 0
+Creating particles thread 1
+Creating particles thread 2
+Creating particles thread 3
+Creating particles thread 4
+Creating particles thread 5
+Creating particles thread 6
+Running lua loader code...
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+===	
+Reboot using	te4	1.6.7	MonasteryRL-0.0.1	Renault	true
+LuaVM:	LuaJIT 2.0.2	x86
+[ENGINE LOADER] available from teae: 	te4-1.6.7
+[ENGINE LOADER] found engines	te4={[1]={[1]=1.000000 , [2]=6.000000 , [3]=7.000000 , [4]="te4" , [5]=17.000000 , ["load_teae"]="/engines/te4-1.6.7.teae" , } , } __byname={["te4-1.6.7"]=true , } 
+[ENGINE LOADER] looked in:
+	C:\Users\HomeMac\\T-Engine\4.0
+	C:\OneDrive\Game Development\TEngine\7DRL\\game\thirdparty
+	C:\OneDrive\Game Development\TEngine\7DRL\\game
+[ENGINE LOADER] loading engine:	1	6	7	te4
+[ENGINE LOADER] using archived engine:	/engines/te4-1.6.7.teae
+Available resolutions: 2560x1440x32
+Available resolutions: 1920x1440x32
+Available resolutions: 1920x1200x32
+Available resolutions: 1920x1080x32
+Available resolutions: 1680x1050x32
+Available resolutions: 1600x1200x32
+Available resolutions: 1600x1024x32
+Available resolutions: 1600x900x32
+Available resolutions: 1366x768x32
+Available resolutions: 1360x768x32
+Available resolutions: 1280x1024x32
+Available resolutions: 1280x960x32
+Available resolutions: 1280x800x32
+Available resolutions: 1280x768x32
+Available resolutions: 1280x720x32
+Available resolutions: 1152x864x32
+Available resolutions: 1024x768x32
+Available resolutions: 800x600x32
+Available resolutions: 720x576x32
+Available resolutions: 720x480x32
+Available resolutions: 640x480x32
+Available resolutions: 2560x1440x16
+Available resolutions: 1920x1440x16
+Available resolutions: 1920x1200x16
+Available resolutions: 1920x1080x16
+Available resolutions: 1680x1050x16
+Available resolutions: 1600x1200x16
+Available resolutions: 1600x1024x16
+Available resolutions: 1600x900x16
+Available resolutions: 1366x768x16
+Available resolutions: 1360x768x16
+Available resolutions: 1280x1024x16
+Available resolutions: 1280x960x16
+Available resolutions: 1280x800x16
+Available resolutions: 1280x768x16
+Available resolutions: 1280x720x16
+Available resolutions: 1152x864x16
+Available resolutions: 1024x768x16
+Available resolutions: 800x600x16
+Available resolutions: 720x576x16
+Available resolutions: 720x480x16
+Available resolutions: 640x480x16
+0==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+1==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+2==WRITEPATH==allowed== C:\Users\HomeMac\T-Engine\4.0\
+3==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+0==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\
+1==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\engines\
+2==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+3==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+5==READPATH==allowed== C:\Users\HomeMac\T-Engine\4.0\
+6==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+7==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+8==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\engines\te4-1.6.7.teae\
+9==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+10==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\
+[KEYBINDER] Loaded keybinds: move
+[KEYBINDER] Loaded keybinds: hotkeys
+[KEYBINDER] Loaded keybinds: inventory
+[KEYBINDER] Loaded keybinds: actions
+[KEYBINDER] Loaded keybinds: interface
+[KEYBINDER] Loaded keybinds: debug
+setResolution: switching resolution to	2560x1440 Fullscreen	2560	1440	true	nil	(forced)
+Setting resolution to 2560x1440 (fullscreen, with borders)
+[DO RESIZE] Requested: 2560x1440 (1, 0); zoom 100%
+[DO RESIZE] Got: 2560x1440 (1, 0)
+OpenGL max texture size: 16384
+setResolution: performing onResolutionChange...
+
+onResolutionChange: resolution changed to 	2560	1440	from	nil	nil
+onResolutionChange: no game yet!
+[ONLINE PROFILE] fun facts	nil
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[ENGINE] Switching to turn based
+[SAVEFILE PIPE] force waiting
+Creating module	7DRL	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for MonasteryRL-0.0.1 using engine te4-1.6.7
+Creating module	boot	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for boot-1.0.0 using engine te4-1.6.7
+* Module: boot
+ ** 1.0.0
+* Module: MonasteryRL
+ ** 0.0.1
+After fs.reset
+[1] = {
+  [path] = C:\OneDrive\Game Development\TEngine\7DRL\\game\engines\te4-1.6.7.teae
+}
+[MODULE] booting module version	MonasteryRL-0.0.1
+[ENGINE] Switching to turn based
+Loading savefile 	/save//
+Loading savefile 	/save/renault/
+Make wait background texture 2 : 0x1084489728 (0, 1083604992)
+table: 0x0c219970	normal
+table: 0x0c219998	normal
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+Server latency	125
+[MODULE LOADER] module MD5	03f8d0e2c7e6b802216b7deb581bd050	computed in 	21910
+Post-processing hooks.
+[MODULE] All hashes validation: 	nil	no online profile active
+[PROFILE] mounted 	offline	on /current-profile
+[PROFILE] unmounted 	offline	from /current-profile
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[PROFILE THREAD] batching CSETs
+module 'mod.dialogs.ShowPickupFloor' not found:
+	no field package.preload['mod.dialogs.ShowPickupFloor']
+	no file '/mod/dialogs/ShowPickupFloor.lua'
+stack traceback:
+	/engine/utils.lua:2955: in function </engine/utils.lua:2954>
+	[C]: at 0x00f35d90
+	[C]: in function 'xpcall'
+	/engine/utils.lua:2954: in function 'require_first'
+	/engine/interface/ActorInventory.lua:25: in main chunk
+	[C]: in function 'require'
+	/mod/load.lua:30: in main chunk
+	[C]: in function 'require'
+	/engine/Module.lua:160: in function 'load'
+	/engine/Module.lua:1046: in function 'instanciate'
+	/engine/utils.lua:2782: in function 'showMainMenu'
+	/engine/init.lua:199: in main chunk
+	[C]: in function 'dofile'
+	/loader/init.lua:217: in main chunk
+[INVENTORY] define slot	1	In inventory
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+[ActorResource] Defined Resource:	power
+[INVENTORY] define slot	2	Main Hand
+[INVENTORY] define slot	3	Off Hand
+[INVENTORY] define slot	4	Armor
+[INVENTORY] define slot	5	Combat Book
+[MODULE LOADER] loading module	Monastery Roguelike	[mod.load]	::	nil	nil
+[GAMMA] Setting gamma correction using SDL	1.2
+[MAP] Reseting tiles caches
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+[GAMMA] Setting gamma correction using SDL	1.2
+[QUICK HOTKEYS] Loading quick hotkey settings for module "MonasteryRL" from /save/quick_hotkeys...
+[QUICK HOTKEYS] Failed to load quick hotkey settings.
+Loading savefile 	/save/renault/
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/font/DroidSansMono.ttf	10
+Using cached font	/data/font/DroidSans.ttf	12
+Using cached font	/data/font/DroidSans.ttf	12
+[LOG]	Welcome to #00FF00#the template module!
+[LOG]	 
+[LOG]	The Monastery before you has been infested by the Cult of Ygothr. Hunt and eradacate the heretics.
+[DISPLAY MODE] 32x32 ASCII/background
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+[BIRTHER] selecting type	base
+[BIRTHER] checking allowance for 	base
+[BIRTHER] selecting type	role
+[BIRTHER] checking allowance for 	Generic Class
+[BIRTHER] Applying descriptor base.base
+[BIRTHER] Applying descriptor role.Generic Class
+Loading savefile 	/save/renault/
+Loading entities file from file	/data/zones/monastery/npcs.lua
+Loading entities file from file	/data/general/npcs/cultists.lua
+Loading entities file from file	/data/zones/monastery/grids.lua
+Loading entities file from file	/data/general/grids/basic.lua
+Loading entities file from file	/data/zones/monastery/objects.lua
+Loading entities file from file	/data/general/objects/str_weapons.lua
+Loading entities file from file	/data/general/objects/dex_weapons.lua
+Loading entities file from file	/data/general/objects/armor.lua
+Loading entities file from file	/data/general/objects/shields.lua
+Loading entities file from file	/data/general/objects/book_pages.lua
+Loading entities file from file	/data/zones/monastery/traps.lua
+Initiated zone	The Monastery	with base_level	1
+Loading zone persistance level	monastery	1
+Creating level	monastery	1
+[Zone:newLevel]	monastery	beginning level generation, count:	1
+C Map size 147:70 :: 10290
+C Map seens texture: 119 (65x40)
+Loading entities file from file	/data/general/egos/cultist_types.lua
+Loading entities file from file	/data/general/egos/basic.lua
+Loading entities file from file	/data/general/egos/armor_egos.lua
+Loading entities file from file	/data/general/egos/book_egos.lua
+Static generator using file	/data/maps/cathedral.lua
+[STATIC MAP] size	51	26	rotate:	default
+[LOG]	Back at the monastery.
+[PLAYER BIRTH] resolve...
+Equipment resolver for	Renault
+Equipment resolver	Renault	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Renault	nil	nil
+Zone made us an equipment according to filter!	Holy Paladins Plate
+Autorequire stats
+str	1
+fight: 	Holy Paladins Plate	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Renault	nil	nil
+Zone made us an equipment according to filter!	Round Shield
+Autorequire stats
+str	1
+fight: 	Round Shield	Longsword	::	nil	OFF_HAND
+fight: 	Round Shield	Holy Paladins Plate	::	nil	OFF_HAND
+[PLAYER BIRTH] resolved!
+[BIRTHER] Finished!
+[DISPLAY MODE] 32x32 ASCII/background
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	10
+C Map size 147:70 :: 10290
+C Map seens texture: 129 (61x36)
+[LOG]	#LIGHT_RED#Online profile disabled(switching to offline profile) due to no online profile active.
+[MODULE LOADER] done loading module	Monastery Roguelike
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+Wait finished, counted 406, 28348 ticks
+C Map minimap texture: 2 (50x50; 64x64)
+[PROFILE THREAD] flushing CSETs
+[PROFILE THREAD] flushing CSETs ignored, empty dataset
+SDL_WINDOWEVENT_MOVED: ignored due to fullscreen
+SDL_WINDOWEVENT_RESIZED: ignored due to fullscreen
+[ENGINE] Setting requested FPS to 2 (500 ms)
+SDL_WINDOWEVENT_MOVED: ignored due to fullscreen
+SDL_WINDOWEVENT_RESIZED: ignored due to fullscreen
+[ENGINE] Setting requested FPS to 30 (33 ms)
+Lua Error: /engine/ui/Dialog.lua:449: bad argument #1 to 'floor' (number expected, got string)
+	At [C]:-1 
+	At [C]:-1 floor
+	At /engine/ui/Dialog.lua:449 resize
+	At /engine/ui/Dialog.lua:442 init
+	At /mod/dialogs/ShowInventory.lua:36 init
+	At /engine/class.lua:147 new
+	At /engine/interface/ActorInventory.lua:378 showInventory
+	At /mod/class/Player.lua:227 playerDrop
+	At /mod/class/Game.lua:381 
+	At /engine/KeyBind.lua:237 
+true
+SDL_WINDOWEVENT_MOVED: ignored due to fullscreen
+SDL_WINDOWEVENT_RESIZED: ignored due to fullscreen
+[ENGINE] Setting requested FPS to 2 (500 ms)
+SDL_WINDOWEVENT_MOVED: ignored due to fullscreen
+SDL_WINDOWEVENT_RESIZED: ignored due to fullscreen
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[COROUTINE] registering	savefilepipe	thread: 0x01f431a0
+[ZONE] Closed level map	1
+[ZONE] Left zone	The Monastery
+[SAVEFILE PIPE] looking for savefile to recover in the memory pipe	zone-monastery.teaz	?=?	zone-north_belltower.teaz
+Loading savefile 	/save/renault/
+Loading entities file from file	/data/zones/north_belltower/npcs.lua
+Loading entities file from memory	/data/general/npcs/cultists.lua
+Loading entities file from file	/data/general/npcs/undead.lua
+Loading entities file from file	/data/zones/north_belltower/grids.lua
+Loading entities file from memory	/data/general/grids/basic.lua
+Loading entities file from file	/data/zones/north_belltower/objects.lua
+Loading entities file from memory	/data/general/objects/str_weapons.lua
+Loading entities file from memory	/data/general/objects/dex_weapons.lua
+Loading entities file from file	/data/general/objects/cultist_weapons.lua
+Loading entities file from memory	/data/general/objects/armor.lua
+Loading entities file from memory	/data/general/objects/shields.lua
+Loading entities file from memory	/data/general/objects/book_pages.lua
+Loading entities file from file	/data/zones/north_belltower/traps.lua
+Initiated zone	The Belfry	with base_level	1
+Creating level	north_belltower	1
+Make wait background texture 37 : 0x1084489728 (0, 1083604992)
+[Zone:newLevel]	north_belltower	beginning level generation, count:	1
+C Map size 147:70 :: 10290
+C Map seens texture: 125 (45x45)
+Loading entities file from memory	/data/general/egos/cultist_types.lua
+Loading entities file from memory	/data/general/egos/basic.lua
+Loading entities file from file	/data/general/egos/cultist_egos.lua
+Loading entities file from memory	/data/general/egos/armor_egos.lua
+Loading entities file from memory	/data/general/egos/book_egos.lua
+loaded room generator	simple	function: 0x01fb0510
+[RoomsLoader:init] loaded room:	simple	function: 0x01fb0510
+loaded room	pilar	10	5
+[RoomsLoader:init] loaded room:	pilar	table: 0x01fa1540
+loaded room	corner	4	4
+[RoomsLoader:init] loaded room:	corner	table: 0x01fc1d30
+[roomGen] generated room	pilar
+placed room	pilar	at	13	27	with center	17	29
+[roomGen] generated room	pilar
+placed room	pilar	at	12	18	with center	16	20
+[roomGen] generated room	pilar
+placed room	pilar	at	2	4	with center	6	6
+[roomGen] generated room	corner
+placed room	corner	at	2	9	with center	3	10
+[roomGen] generated room	pilar
+placed room	pilar	at	4	23	with center	8	25
+[roomGen] room generator	function: 0x01fb0510	is making a room
+[roomGen] generated room	simple12x10
+placed room	simple12x10	at	14	3	with center	19	7
+[roomGen] generated room	corner
+placed room	corner	at	25	6	with center	26	7
+[roomGen] generated room	corner
+placed room	corner	at	28	8	with center	29	9
+[roomGen] room generator	function: 0x01fb0510	is making a room
+[roomGen] generated room	simple12x5
+placed room	simple12x5	at	21	23	with center	26	25
+[roomGen] room generator	function: 0x01fb0510	is making a room
+[roomGen] generated room	simple9x12
+placed room	simple9x12	at	4	12	with center	8	17
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	page
+Zone made us an equipment according to filter!	Worn Page 900
+Inventory resolver	Ygothr Cultist	page	page
+Zone made us an inventory according to filter!	Worn Page 6
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Arcane Tattered Rags
+Autorequire stats
+str	1
+fight: 	Arcane Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Arcane Tattered Rags
+Autorequire stats
+str	1
+fight: 	Arcane Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Arcane Longsword +1 
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Arcane Longsword +1 	::	nil	ARMOR_SLOT
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Ygothr Cultist Acolyte
+Equipment resolver	Ygothr Cultist Acolyte	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist Acolyte	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist Acolyte	page	page
+Zone made us an equipment according to filter!	Worn Page 95
+Inventory resolver	Ygothr Cultist Acolyte	page	page
+Zone made us an inventory according to filter!	Torn Page 548
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	page
+Zone made us an equipment according to filter!	Pristine Page 369
+Inventory resolver	Ygothr Cultist	page	page
+Zone made us an inventory according to filter!	Worn Page 95
+[LOG]	You enter the Northern Belfrey.
+[Zone:newLevel] Level unconnected, no way from entrance	20	20	to exit	8	24
+[Zone:newLevel]	north_belltower	beginning level generation, count:	2
+C Map size 147:70 :: 10290
+C Map seens texture: 160 (45x45)
+Loading entities file from memory	/data/general/egos/cultist_types.lua
+Loading entities file from memory	/data/general/egos/basic.lua
+Loading entities file from memory	/data/general/egos/cultist_egos.lua
+Loading entities file from memory	/data/general/egos/armor_egos.lua
+Loading entities file from memory	/data/general/egos/book_egos.lua
+[RoomsLoader:init] loaded room:	simple	function: 0x01fb0510
+[RoomsLoader:init] loaded room:	pilar	table: 0x01fa1540
+[RoomsLoader:init] loaded room:	corner	table: 0x01fc1d30
+[roomGen] generated room	pilar
+placed room	pilar	at	14	27	with center	18	29
+[roomGen] room generator	function: 0x01fb0510	is making a room
+[roomGen] generated room	simple10x7
+placed room	simple10x7	at	13	3	with center	17	6
+[roomGen] generated room	corner
+placed room	corner	at	14	11	with center	15	12
+[roomGen] room generator	function: 0x01fb0510	is making a room
+[roomGen] generated room	simple9x11
+placed room	simple9x11	at	24	5	with center	28	10
+[roomGen] generated room	pilar
+placed room	pilar	at	1	17	with center	5	19
+[roomGen] generated room	pilar
+placed room	pilar	at	15	23	with center	19	25
+[roomGen] generated room	corner
+placed room	corner	at	2	26	with center	3	27
+[roomGen] room generator	function: 0x01fb0510	is making a room
+[roomGen] generated room	simple12x8
+placed room	simple12x8	at	1	5	with center	6	8
+[roomGen] room generator	function: 0x01fb0510	is making a room
+[roomGen] generated room	simple9x11
+placed room	simple9x11	at	24	16	with center	28	21
+[roomGen] room generator	function: 0x01fb0510	is making a room
+[roomGen] generated room	simple12x5
+placed room	simple12x5	at	10	14	with center	15	16
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Tattered Rags
+Autorequire stats
+str	1
+fight: 	Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	page
+Zone made us an equipment according to filter!	Pristine Page 369
+Inventory resolver	Ygothr Cultist	page	page
+Zone made us an inventory according to filter!	Pristine Page 548
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Holy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Holy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	page
+Zone made us an equipment according to filter!	Worn Page 873
+Inventory resolver	Ygothr Cultist	page	page
+Zone made us an inventory according to filter!	Worn Page 873
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Arcane Tattered Rags
+Autorequire stats
+str	1
+fight: 	Arcane Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	page
+Zone made us an equipment according to filter!	Pristine Page 900
+Inventory resolver	Ygothr Cultist	page	page
+Zone made us an inventory according to filter!	Worn Page 873
+Equipment resolver for	Ygothr Cultist
+Equipment resolver	Ygothr Cultist	cultist_weapons	nil
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Ygothr Cultist	nil	nil
+Zone made us an equipment according to filter!	Holy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Holy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Equipment resolver	Ygothr Cultist	page	page
+Zone made us an equipment according to filter!	Pristine Page 344
+Inventory resolver	Ygothr Cultist	page	page
+Zone made us an inventory according to filter!	Worn Page 873
+Equipment resolver for	Undead
+Equipment resolver	Undead	weapon	longsword
+Zone made us an equipment according to filter!	Longsword
+Autorequire stats
+str	1
+Equipment resolver	Undead	nil	nil
+Zone made us an equipment according to filter!	Unholy Tattered Rags
+Autorequire stats
+str	1
+fight: 	Unholy Tattered Rags	Longsword	::	nil	ARMOR_SLOT
+Wait finished, counted 828, 235 ticks
+C Map minimap texture: 34 (50x50; 64x64)
+[SAVEFILE PIPE] new save running in the pipe:	Renault	zone	::	zone-monastery.teaz	::	table: 0x01f19458	=>	table: 0x01ff1c28	(83)
+Loading savefile 	/save/renault/
+[SAVEFILE PIPE] unleashing save thread
+Saving zipname /save/renault/zone-monastery.teaz.tmp
+Saved zipname /save/renault/zone-monastery.teaz.tmp
+[SAVEFILE PIPE] Checking save	Renault	zone	/save/renault/zone-monastery.teaz.tmp
+Loading savefile 	/save/renault/
+[SAVEFILE] checked validity of type	zone	 => 	all fine
+[LOG]	Saving done.
+[SAVEFILE PIPE] on end	saveZone_md5
+[SAVEFILE PIPE] saving took 1 seconds
+[COROUTINE] dead	savefilepipe
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#RED#Ygothr Cultist#LAST# hits Renault for #LIGHT_SLATE#2.36 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#{bold}#Renault killed Ygothr Cultist!#{normal}#
+[LOG]	Ygothr Cultist has been killed!
+[LOG]	#RED#Ygothr Cultist#LAST# hits Renault for #LIGHT_SLATE#1.88 physical damage#LAST#.
+[LOG]	#RED#Ygothr Cultist#LAST# hits Renault for #LIGHT_SLATE#1.88 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#RED#Ygothr Cultist#LAST# hits Renault for #LIGHT_SLATE#1.88 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#RED#Ygothr Cultist#LAST# hits Renault for #LIGHT_SLATE#1.88 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#{bold}#Renault killed Ygothr Cultist!#{normal}#
+[LOG]	Ygothr Cultist dropped Worn Page 873
+[LOG]	Ygothr Cultist has been killed!
+[LOG]	You see a Worn Page 873 on the ground
+[LOG]	Renault picks up (a.): Worn Page 873.
+[LOG]	Pulling up inventory
+[LOG]	click
+fight: 	Worn Page 873	Longsword	::	nil	COMBAT_BOOK
+fight: 	Worn Page 873	Round Shield	::	nil	COMBAT_BOOK
+fight: 	Worn Page 873	Holy Paladins Plate	::	nil	COMBAT_BOOK
+[LOG]	Renault wears: Worn Page 873.
+Server latency	125
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#RED#Ygothr Cultist#LAST# hits Renault for #LIGHT_SLATE#3.23 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#RED#Ygothr Cultist#LAST# hits Renault for #LIGHT_SLATE#3.23 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#{bold}#Renault killed Ygothr Cultist!#{normal}#
+[LOG]	Ygothr Cultist has been killed!
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#RED#Ygothr Cultist#LAST# hits Renault for #LIGHT_SLATE#0.88 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Ygothr Cultist for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#{bold}#Renault killed Ygothr Cultist!#{normal}#
+[LOG]	Ygothr Cultist has been killed!
+[LOG]	#RED#Undead#LAST# hits Renault for #LIGHT_SLATE#1.82 physical damage#LAST#.
+[LOG]	#RED#Undead#LAST# hits Renault for #LIGHT_SLATE#1.82 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Undead for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#RED#Undead#LAST# hits Renault for #LIGHT_SLATE#1.82 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Undead for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#RED#Undead#LAST# hits Renault for #LIGHT_SLATE#1.82 physical damage#LAST#.
+[LOG]	#GREEN#Renault#LAST# hits Undead for #LIGHT_SLATE#3.50 physical damage#LAST#.
+[LOG]	#{bold}#Renault killed Undead!#{normal}#
+[LOG]	Undead has been killed!
+Loading tile	border_7.png
+Loading tile	border_9.png
+Loading tile	border_1.png
+Loading tile	border_3.png
+Loading tile	border_8.png
+Loading tile	border_4.png
+[COROUTINE] registering	savefilepipe	thread: 0x01eebdf0
+[ENGINE] Switching to turn based
+[SAVEFILE PIPE] force waiting
+Make wait background texture 36 : 0x1084489728 (0, 1083604992)
+[SAVEFILE PIPE] new save running in the pipe:	Renault	game	::	game.teag	::	table: 0x01364568	=>	table: 0x01ec2ac0	(138)
+Loading savefile 	/save/renault/
+[SAVEFILE PIPE] unleashing save thread
+Saving zipname /save/renault/game.teag.tmp
+Saved zipname /save/renault/game.teag.tmp
+[SAVEFILE PIPE] Checking save	Renault	game	/save/renault/game.teag.tmp
+Loading savefile 	/save/renault/
+[SAVEFILE] checked validity of type	game	 => 	all fine
+[LOG]	Saving done.
+[SAVEFILE PIPE] on end	saveGame_md5
+[SAVEFILE PIPE] saving took 0 seconds
+Wait finished, counted 216, 146 ticks
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[MAIN] rebooting lua state: 	nil	nil	nil	nil	nil
+stack traceback:
+[COROUTINE] error	cannot resume dead coroutine
+[COROUTINE] dead	savefilepipe
+[ENGINE] Switching to turn based
+NO SELFEXE: bootstrapping from CWD
+Loading discord rpc: library(C:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll) => Failed loading C:\OneDrive\Game Development\TEngine\7DRL\discord-rpc.dll: The specified module could not be found.
+
+===top 0
+Booting T-Engine from: C:\OneDrive\Game Development\TEngine\7DRL\7DRL.exe
+SelfExe gave us app directory of:	C:\OneDrive\Game Development\TEngine\7DRL\
+LuaVM:	LuaJIT 2.0.2	x86
+Destroying particle thread 0 (waiting for mutex)
+Destroying particle thread 0
+Destroying particle thread 0 (waiting for thread 3f2f850)
+Cleaning up particle thread 0
+Cleaned up particle thread 0
+Destroyed particle thread 0 (0)
+Destroying particle thread 1 (waiting for mutex)
+Destroying particle thread 1
+Destroying particle thread 1 (waiting for thread 3f0f740)
+Cleaning up particle thread 1
+Cleaned up particle thread 1
+Destroyed particle thread 1 (0)
+Destroying particle thread 2 (waiting for mutex)
+Destroying particle thread 2
+Destroying particle thread 2 (waiting for thread 3f0fa68)
+Cleaning up particle thread 2
+Cleaned up particle thread 2
+Destroyed particle thread 2 (0)
+Destroying particle thread 3 (waiting for mutex)
+Destroying particle thread 3
+Destroying particle thread 3 (waiting for thread 3f0ff00)
+Cleaning up particle thread 3
+Cleaned up particle thread 3
+Destroyed particle thread 3 (0)
+Destroying particle thread 4 (waiting for mutex)
+Destroying particle thread 4
+Destroying particle thread 4 (waiting for thread 3f10228)
+Cleaning up particle thread 4
+Cleaned up particle thread 4
+Destroyed particle thread 4 (0)
+Destroying particle thread 5 (waiting for mutex)
+Destroying particle thread 5
+Destroying particle thread 5 (waiting for thread 3f8b858)
+Cleaning up particle thread 5
+Cleaned up particle thread 5
+Destroyed particle thread 5 (0)
+Destroying particle thread 6 (waiting for mutex)
+Destroying particle thread 6
+Destroying particle thread 6 (waiting for thread 3f8bb80)
+Cleaning up particle thread 6
+Cleaned up particle thread 6
+Destroyed particle thread 6 (0)
+Creating particles thread 0
+Creating particles thread 1
+Creating particles thread 2
+Creating particles thread 3
+Creating particles thread 4
+Creating particles thread 5
+Creating particles thread 6
+Running lua loader code...
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+LuaVM:	LuaJIT 2.0.2	x86
+===	
+Reboot using	te4	LATEST	boot	player	false
+LuaVM:	LuaJIT 2.0.2	x86
+[ENGINE LOADER] available from teae: 	te4-1.6.7
+[ENGINE LOADER] found engines	te4={[1]={[1]=1.000000 , [2]=6.000000 , [3]=7.000000 , [4]="te4" , [5]=17.000000 , ["load_teae"]="/engines/te4-1.6.7.teae" , } , } __byname={["te4-1.6.7"]=true , } 
+[ENGINE LOADER] looked in:
+	C:\Users\HomeMac\\T-Engine\4.0
+	C:\OneDrive\Game Development\TEngine\7DRL\\game\thirdparty
+	C:\OneDrive\Game Development\TEngine\7DRL\\game
+[ENGINE LOADER] sorted:	te4	1	6	7
+[ENGINE LOADER] loading engine:	1	6	7	te4
+[ENGINE LOADER] using archived engine:	/engines/te4-1.6.7.teae
+Available resolutions: 2560x1440x32
+Available resolutions: 1920x1440x32
+Available resolutions: 1920x1200x32
+Available resolutions: 1920x1080x32
+Available resolutions: 1680x1050x32
+Available resolutions: 1600x1200x32
+Available resolutions: 1600x1024x32
+Available resolutions: 1600x900x32
+Available resolutions: 1366x768x32
+Available resolutions: 1360x768x32
+Available resolutions: 1280x1024x32
+Available resolutions: 1280x960x32
+Available resolutions: 1280x800x32
+Available resolutions: 1280x768x32
+Available resolutions: 1280x720x32
+Available resolutions: 1152x864x32
+Available resolutions: 1024x768x32
+Available resolutions: 800x600x32
+Available resolutions: 720x576x32
+Available resolutions: 720x480x32
+Available resolutions: 640x480x32
+Available resolutions: 2560x1440x16
+Available resolutions: 1920x1440x16
+Available resolutions: 1920x1200x16
+Available resolutions: 1920x1080x16
+Available resolutions: 1680x1050x16
+Available resolutions: 1600x1200x16
+Available resolutions: 1600x1024x16
+Available resolutions: 1600x900x16
+Available resolutions: 1366x768x16
+Available resolutions: 1360x768x16
+Available resolutions: 1280x1024x16
+Available resolutions: 1280x960x16
+Available resolutions: 1280x800x16
+Available resolutions: 1280x768x16
+Available resolutions: 1280x720x16
+Available resolutions: 1152x864x16
+Available resolutions: 1024x768x16
+Available resolutions: 800x600x16
+Available resolutions: 720x576x16
+Available resolutions: 720x480x16
+Available resolutions: 640x480x16
+0==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+1==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+2==WRITEPATH==allowed== C:\Users\HomeMac\T-Engine\4.0\
+3==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==WRITEPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+0==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\
+1==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\engines\
+2==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+3==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+4==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+5==READPATH==allowed== C:\Users\HomeMac\T-Engine\4.0\
+6==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\addons\
+7==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\modules\
+8==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\engines\te4-1.6.7.teae\
+9==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\thirdparty\
+10==READPATH==allowed== C:\OneDrive\Game Development\TEngine\7DRL\game\
+[KEYBINDER] Loaded keybinds: move
+[KEYBINDER] Loaded keybinds: hotkeys
+[KEYBINDER] Loaded keybinds: inventory
+[KEYBINDER] Loaded keybinds: actions
+[KEYBINDER] Loaded keybinds: interface
+[KEYBINDER] Loaded keybinds: debug
+setResolution: switching resolution to	2560x1440 Fullscreen	2560	1440	true	nil	(forced)
+Setting resolution to 2560x1440 (fullscreen, with borders)
+[DO RESIZE] Requested: 2560x1440 (1, 0); zoom 100%
+[DO RESIZE] Got: 2560x1440 (1, 0)
+OpenGL max texture size: 16384
+setResolution: performing onResolutionChange...
+
+onResolutionChange: resolution changed to 	2560	1440	from	nil	nil
+onResolutionChange: no game yet!
+[ONLINE PROFILE] fun facts	nil
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[ENGINE] Switching to turn based
+[SAVEFILE PIPE] force waiting
+Creating module	7DRL	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for MonasteryRL-0.0.1 using engine te4-1.6.7
+Creating module	boot	:: (as dir)	true	:: (as team)	nil	
+Loaded module definition for boot-1.0.0 using engine te4-1.6.7
+* Module: boot
+ ** 1.0.0
+* Module: MonasteryRL
+ ** 0.0.1
+After fs.reset
+[1] = {
+  [path] = C:\OneDrive\Game Development\TEngine\7DRL\\game\engines\te4-1.6.7.teae
+}
+[MODULE] booting module version	boot-1.0.0
+[ENGINE] Switching to turn based
+Loading savefile 	/save//
+Loading savefile 	/save/player/
+Make wait background texture 2 : 0x1084489728 (0, 1083604992)
+table: 0x05dc6000	normal
+Using cached font	/data/font/Vera.ttf	12
+table: 0x05dc6028	normal
+Using cached font	/data/font/Vera.ttf	12
+Post-processing hooks.
+[MODULE] All hashes validation: 	nil	no online profile active
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+Using cached font	/data/general/font/Ac437_IBM_CGA.ttf	12
+[PROFILE THREAD] batching CSETs
+[MODULE LOADER] loading module	T-Engine4 Main Menu 	[mod.load]	::	nil	nil
+[GAMMA] Not setting gamma correction yet, no fullscreen shader found	1.2
+[ENGINE] Switching to turn based
+[GAMMA] Not setting gamma correction yet, no fullscreen shader found	1.2
+Loading savefile 	/save/player/
+[SHADER] Loading from /data/gfx/shaders/full_fbo.lua
+[SHADER] Loaded shader with totalname	full_fbo[]
+New GL Shader program 1
+New GL Shader 2 of type 35632
+[SHADER] created fragment shader from /data/gfx/shaders/full_fbo.frag
+*p 1: Uniform: 0: 1406 gamma
+*p 1: Uniform: 1: 8B5E sceneBuffer
+[GAMMA] Setting gamma correction using fullscreen shader	1.2
+[ENGINE] Setting requested FPS to 30 (33 ms)
+[MODULE LOADER] done loading module	T-Engine4 Main Menu 
+[PROFILE] mounted 	online	on /current-profile
+[PROFILE] unmounted 	online	from /current-profile
+Wait fini
