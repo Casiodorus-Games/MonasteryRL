@@ -5,7 +5,7 @@ newEntity{
 	type = "humanoid", subtype = "cultist",
 	display = "c", color=colors.WHITE,
 	desc = "a basic culstist",
-	body = { INVEN = 10, MAIN_HAND = 1, ARMOR_SLOT = 1},
+	body = { INVEN = 10, MAIN_HAND = 1, ARMOR_SLOT = 1,COMBAT_BOOK = 1},
 	ai = "dumb_talented_simple", ai_state = { talent_in=3, },
 	stats = { str=5, dex=5, con=5 },
 	combat_armor = 0,

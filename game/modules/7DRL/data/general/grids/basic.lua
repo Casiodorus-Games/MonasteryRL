@@ -19,7 +19,7 @@
 
 newEntity{
 	define_as = "UP_MONASTERY",
-	name = "exit to the wilds",
+	name = "Exit to the Monastery",
 	display = '<', color_r=242, color_g=82, color_b=68, back_color=colors.CP1_Gray,
 	always_remember = true,
 	notice = true,
@@ -29,7 +29,7 @@ newEntity{
 
 newEntity{
 	define_as = "UP_NORTH_BELLTOWER",
-	name = "exit to the wilds",
+	name = "Exit to the Belltower",
 	display = '<', color_r=242, color_g=82, color_b=68, back_color=colors.CP1_Gray,
 	always_remember = true,
 	notice = true,
@@ -69,7 +69,7 @@ newEntity{
 
 newEntity{
 	define_as = "UP_CRYPT",
-	name = "exit to the wilds",
+	name = "exit to the crypts",
 	display = '<', color_r=242, color_g=82, color_b=68, back_color=colors.CP1_Gray,
 	always_remember = true,
 	notice = true,

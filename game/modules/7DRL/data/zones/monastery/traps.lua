@@ -17,6 +17,7 @@
 -- Nicolas Casalini "DarkGod"
 -- darkgod@te4.org
 
+local Dialog = require "engine.ui.Dialog"
 
 newEntity{ define_as = "ENTERANCE",
 	type = "game_messages", subtype="game_messages", id_by_type=true, unided_name = "game_messages",
@@ -32,6 +33,58 @@ newEntity{ define_as = "ENTERANCE",
             if not game.gameMessage_entrance then
                 game.chatLog("As you step forth into the Monastery, you can smell the infestation taking root")
                 game.gameMessage_entrance = true
+            end
+		end
+		return false, false
+	end
+}
+
+newEntity{ define_as = "TUTORIAL_DESCEND",
+	type = "game_messages", subtype="game_messages", id_by_type=true, unided_name = "game_messages",
+	detect_power = 999999, disarm_power = 999999,
+	desc = [[A Game Message]],
+	display = ' ', color=colors.WHITE,
+    message = false,
+	triggered = function(self, x, y, who)
+		if who.player then
+            if not game.gameTutorial_stairs then
+                Dialog:simplePopup("Tutorial","Press Shift+> to traverse floors when over a < or >")
+                game.gameTutorial_stairs = true
+            end
+		end
+		return false, false
+	end
+}
+
+newEntity{ define_as = "TUTORIAL_PICKUP",
+	type = "game_messages", subtype="game_messages", id_by_type=true, unided_name = "game_messages",
+	detect_power = 999999, disarm_power = 999999,
+	desc = [[A Game Message]],
+	display = ' ', color=colors.WHITE,
+    message = false,
+	triggered = function(self, x, y, who)
+		if who.player then
+            if not game.gameTutorial_pickup then
+				--Dialog:simplePopup("Tutorial","Press I to open inventory and equip items.")
+                Dialog:simplePopup("Tutorial","Press G to pick up items.")
+                game.gameTutorial_pickup = true
+            end
+		end
+		return false, false
+	end
+}
+
+newEntity{ define_as = "TUTORIAL_EQUIP",
+	type = "game_messages", subtype="game_messages", id_by_type=true, unided_name = "game_messages",
+	detect_power = 999999, disarm_power = 999999,
+	desc = [[A Game Message]],
+	display = ' ', color=colors.WHITE,
+    message = false,
+	triggered = function(self, x, y, who)
+		if who.player then
+            if game.gameTutorial_pickup and not game.gameTutorial_equip then
+				Dialog:simplePopup("Tutorial","Press I to open inventory and equip items.")
+                game.gameTutorial_equip = true
             end
 		end
 		return false, false

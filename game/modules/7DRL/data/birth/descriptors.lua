@@ -23,7 +23,7 @@ newBirthDescriptor{
 	desc = {
 	},
 	experience = 1.0,
-	body = { INVEN = 10, MAIN_HAND = 1, OFF_HAND = 1, ARMOR_SLOT = 1, COMBAT_BOOK = 5,},
+	body = { INVEN = 10, COMBAT_BOOK = 5,},
 	copy = {
 		max_level = 10,
 		lite = 4,
@@ -40,7 +40,7 @@ newBirthDescriptor{
 		combat = {
 			armor = 0,
 			damage_reduction = 0,
-			physical_damage =  0,
+			physical_damage =  2,
 			fire_damage = 0,
 			cold_damage = 0,
 			arcane_damage = 0,
@@ -62,11 +62,5 @@ newBirthDescriptor{
 	talents = {
 	},
 	copy = {
-		resolvers.equip{ 
-			full_id=true,
-			{type="weapon", subtype="longsword", autoreq=true},
-			{name = "Paladins Plate", autoreq=true},
-			{name = "Round Shield", autoreq=true},
-		},
 	},
 }

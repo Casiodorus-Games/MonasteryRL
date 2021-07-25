@@ -40,6 +40,7 @@ local LogFlasher = require "engine.LogFlasher"
 local DebugConsole = require "engine.DebugConsole"
 local FlyingText = require "engine.FlyingText"
 local Tooltip = require "engine.Tooltip"
+local Dialog = require "engine.ui.Dialog"
 
 local PlayerDisplay = require "mod.class.PlayerDisplay" 
 
@@ -61,6 +62,11 @@ north_belfrey = true
 
 -- Game Messages
 gameMessage_entrance = false
+
+-- Tutorials
+gameTutorial_stairs = false
+gameTutorial_pickup = false
+gameTutorial_equip = false
 
 module(..., package.seeall, class.inherit(engine.GameTurnBased, engine.interface.GameTargeting))
 
@@ -136,7 +142,11 @@ function _M:newGame()
 		self.paused = true
 		self.creating_player = false
 		print("[PLAYER BIRTH] resolved!")
+
+		--local d = require("engine.dialogs.ShowText").new("Welcome to the game!",test,nil,nil)
+		Dialog:simplePopup("Welcome","Welcome to MonastaryRL! Use the arrow keys to move.")
 	end)
+	--game:registerDialog(d)
 	self:registerDialog(birth)
 end
 
@@ -329,7 +339,6 @@ function _M:setupCommands()
 		RUN_LEFT_DOWN = function() self.player:runInit(1) end,
 		RUN_RIGHT_UP = function() self.player:runInit(9) end,
 		RUN_RIGHT_DOWN = function() self.player:runInit(3) end,
-
 		-- Hotkeys
 		HOTKEY_1 = function() self.player:activateHotkey(1) end,
 		HOTKEY_2 = function() self.player:activateHotkey(2) end,
@@ -418,7 +427,7 @@ function _M:setupCommands()
 		end,
 
 		SHOW_CHARACTER_SHEET = function()
-			self:registerDialog(require("mod.dialogs.CharacterSheet").new(self.player))
+			--self:registerDialog(require("mod.dialogs.CharacterSheet").new(self.player))
 		end,
 
 		-- Exit the game

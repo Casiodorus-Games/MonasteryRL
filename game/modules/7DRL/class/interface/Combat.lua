@@ -72,9 +72,7 @@ end
 
 function _M:hasWeapon(type)
 	if type == "main" then
-		if not self:getInven("MAIN_HAND") then return end
-		local weapon = self:getInven("MAIN_HAND")[1]
-		if not weapon or not weapon.combat then
+		if not self:getInven("MAIN_HAND") then 
 			unarmed = {
 				combat = {
 					physical_damage = 0,
@@ -88,6 +86,7 @@ function _M:hasWeapon(type)
 			}
 			return unarmed
 		end
+		local weapon = self:getInven("MAIN_HAND")[1]
 		return weapon
 	end
 	if type == "off" then
@@ -112,9 +111,7 @@ function _M:hasWeapon(type)
 end
 
 function _M:hasArmor()
-	if not self:getInven("ARMOR_SLOT") then return end
-	local armor = self:getInven("ARMOR_SLOT")[1]
-	if not armor or not armor.combat then
+	if not self:getInven("ARMOR_SLOT") then
 		unequipped = {
 			combat = {
 				armor = 0,
@@ -123,6 +120,7 @@ function _M:hasArmor()
 		}
 		return unequipped
 	end
+	local armor = self:getInven("ARMOR_SLOT")[1]
 	return armor
 end
 

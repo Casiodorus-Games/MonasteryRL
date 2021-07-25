@@ -93,16 +93,29 @@ function resolvers.calc.mbonus(t, e)
 	return v
 end
 
---- Resolves drops creation for an actor
+--- Resolves resistances generation
 function resolvers.resistance(min, max)
 	return {__resolver="resistance", __resolve_last=true,min, max}
 end
 
---- Actually resolve the drops creation
+--- Actually resolves resistances generation
 function resolvers.calc.resistance(t)
 	minValue = t[1]
 	maxValue = t[2]
 	value = rng.range(minValue,maxValue)/100
+	return value
+end
+
+--- Resolves the generation of random stats
+function resolvers.rngDMGBonus(min, max)
+	return {__resolver="resistance", __resolve_last=true,min, max}
+end
+
+--- Actually resolve the drops creation
+function resolvers.calc.rngDMGBonus(t)
+	minValue = t[1]
+	maxValue = t[2]
+	value = rng.range(minValue,maxValue)
 	return value
 end
 

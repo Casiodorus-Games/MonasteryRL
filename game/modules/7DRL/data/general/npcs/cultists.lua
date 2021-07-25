@@ -41,7 +41,7 @@ newEntity{
 
 newEntity{ base = "BASE_NPC_CULTIST",
 	name = "Ygothr Cultist", color=colors.WHITE,
-	level_range = {1, 1}, exp_worth = 1,
+	level_range = {3, 5}, exp_worth = 1,
 	egos = "/data/general/egos/cultist_types.lua", egos_chance = {prefix=20, suffix=20},
 	rarity = 1,
 	energy = {

@@ -68,7 +68,7 @@ return {
 				},
 			},
 		},
-		[9] = {
+		[3] = {
 			generator = {
 				map = {
 					class = "engine.generator.map.Roomer",

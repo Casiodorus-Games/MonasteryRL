@@ -91,10 +91,10 @@ function _M:display()
     --self:makeTextureBar("#c00000#Life:", nil, player.life, player.max_life, player.life_regen * util.bound((player.healing_factor or 1), 0, 2.5), x, h, 255, 255, 255, colors.DARK_RED, colors.VERY_DARK_RED) h = h + self.font_h
     self:makeTexture(("#c00000#Health: #FFFFFF#%3d/%3d"):format(player.life, player.max_life), x, h, 255, 255, 255) h = h + self.font_h
     h = 325
-    self:makeTexture(("Physical Damage: %s"):format(weapon.combat.physical_damage+weapon.combat.bonus_damage+player:GetCombatBookDamage("physical")+offhand.combat.physical_damage+offhand.combat.physical_damage), x, h, 209,209,209) h = h + self.font_h
-    self:makeTexture(("Arcane Damage: %s"):format(weapon.combat.arcane_damage+player:GetCombatBookDamage("arcane")+offhand.combat.arcane_damage), x, h, 192,0,175) h = h + self.font_h
-    self:makeTexture(("Holy Damage: %s"):format(weapon.combat.holy_damage+player:GetCombatBookDamage("holy")+offhand.combat.holy_damage), x, h, 255,228,181) h = h + self.font_h
-    self:makeTexture(("Unholy Damage: %s"):format(weapon.combat.unholy_damage+player:GetCombatBookDamage("unholy")+offhand.combat.unholy_damage), x, h, 70,130,180) h = h + self.font_h
+    self:makeTexture(("Physical Damage: %s"):format(player:GetCombatBookDamage("physical")+player.combat.physical_damage), x, h, 209,209,209) h = h + self.font_h
+    self:makeTexture(("Arcane Damage: %s"):format(player:GetCombatBookDamage("arcane")), x, h, 192,0,175) h = h + self.font_h
+    self:makeTexture(("Holy Damage: %s"):format(player:GetCombatBookDamage("holy")), x, h, 255,228,181) h = h + self.font_h
+    self:makeTexture(("Unholy Damage: %s"):format(player:GetCombatBookDamage("unholy")), x, h, 70,130,180) h = h + self.font_h
 
     h = 475
     self:makeTexture(("Physical Resistance: %s"):format(getResistance(player, "physical")*100)..("%"), x, h, 209,209,209) h = h + self.font_h
@@ -138,9 +138,11 @@ function getResistance(target, resType)
     local counter = 0
 	if resType == "physical" then
 		resistance = resistance + target.resistances.physical_resistance
-		if target:getInven("ARMOR_SLOT")[1] then
-		resistance = resistance + target:getInven("ARMOR_SLOT")[1].resistances.physical_resistance
-		end
+        if target:getInven("ARMOR_SLOT") then
+            if target:getInven("ARMOR_SLOT")[1] then
+            resistance = resistance + target:getInven("ARMOR_SLOT")[1].resistances.physical_resistance
+            end
+        end
         if target:getInven("OFF_HAND") then
             if target:getInven("OFF_HAND")[1] then
                 resistance = resistance + target:getInven("OFF_HAND")[1].resistances.physical_resistance
@@ -154,9 +156,11 @@ function getResistance(target, resType)
         end
 	elseif resType == "arcane" then
 		resistance = resistance + target.resistances.arcane_resistance
-		if target:getInven("ARMOR_SLOT")[1] then
-		resistance = resistance + target:getInven("ARMOR_SLOT")[1].resistances.arcane_resistance
-		end
+        if target:getInven("ARMOR_SLOT") then
+            if target:getInven("ARMOR_SLOT")[1] then
+            resistance = resistance + target:getInven("ARMOR_SLOT")[1].resistances.arcane_resistance
+            end
+        end
         for x in pairs(target:getInven("COMBAT_BOOK")) do
             counter = counter + 1
             if target:getInven("COMBAT_BOOK")[counter] then
@@ -165,9 +169,11 @@ function getResistance(target, resType)
         end
 	elseif resType == "holy" then
 		resistance = resistance + target.resistances.holy_resistance
-		if target:getInven("ARMOR_SLOT")[1] then
-		resistance = resistance + target:getInven("ARMOR_SLOT")[1].resistances.holy_resistance
-		end
+        if target:getInven("ARMOR_SLOT") then
+            if target:getInven("ARMOR_SLOT")[1] then
+            resistance = resistance + target:getInven("ARMOR_SLOT")[1].resistances.holy_resistance
+            end
+        end
         for x in pairs(target:getInven("COMBAT_BOOK")) do
             counter = counter + 1
             if target:getInven("COMBAT_BOOK")[counter] then
@@ -176,9 +182,11 @@ function getResistance(target, resType)
         end
 	elseif resType == "unholy" then
 		resistance = resistance + target.resistances.unholy_resistance
-		if target:getInven("ARMOR_SLOT")[1] then
-		resistance = resistance + target:getInven("ARMOR_SLOT")[1].resistances.unholy_resistance
-		end
+        if target:getInven("ARMOR_SLOT") then
+            if target:getInven("ARMOR_SLOT")[1] then
+            resistance = resistance + target:getInven("ARMOR_SLOT")[1].resistances.unholy_resistance
+            end
+        end
         for x in pairs(target:getInven("COMBAT_BOOK")) do
             counter = counter + 1
             if target:getInven("COMBAT_BOOK")[counter] then

@@ -18,4 +18,4 @@
 -- darkgod@te4.org
 
 load("/data/general/npcs/cultists.lua")
-load("/data/general/npcs/undead.lua")
+--load("/data/general/npcs/undead.lua")
